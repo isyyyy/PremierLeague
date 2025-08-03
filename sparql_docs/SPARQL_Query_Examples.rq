@@ -1,0 +1,74 @@
+PREFIX ex: <http://example.org/premierleague/>
+
+# 1. Cầu thủ có nhiều bàn thắng nhất
+SELECT ?player ?name ?goals
+WHERE {
+  ?player a ex:Player ;
+          ex:hasName ?name ;
+          ex:totalGoals ?goals .
+}
+ORDER BY DESC(?goals)
+LIMIT 10
+
+# 2. Cầu thủ và CLB của họ
+SELECT ?player ?name ?clubName
+WHERE {
+  ?player a ex:Player ;
+          ex:hasName ?name ;
+          ex:playsFor ?club .
+  ?club ex:clubName ?clubName .
+}
+LIMIT 20
+
+# 3. Đếm số cầu thủ theo quốc tịch
+SELECT ?nat (COUNT(?player) AS ?numPlayers)
+WHERE {
+  ?player a ex:Player ;
+          ex:hasNationality ?nat .
+}
+GROUP BY ?nat
+ORDER BY DESC(?numPlayers)
+
+# 4. Các cầu thủ là đồng đội của nhau
+SELECT ?p1 ?p2
+WHERE {
+  ?p1 ex:teammateWith ?p2 .
+  FILTER(?p1 != ?p2)
+}
+LIMIT 20
+
+# 5. Bàn thắng theo mùa
+SELECT ?player ?name ?season ?goals
+WHERE {
+  ?stat a ex:PlayerSeasonStats ;
+        ex:forPlayer ?player ;
+        ex:inSeason ?season ;
+        ex:goals ?goals .
+  ?player ex:hasName ?name .
+}
+ORDER BY DESC(?goals)
+LIMIT 20
+
+# 6. CLB và mùa giải tham gia
+SELECT ?club ?clubName ?season
+WHERE {
+  ?club a ex:Club ;
+        ex:clubName ?clubName ;
+        ex:participatesIn ?season .
+}
+LIMIT 20
+
+# 7. Đếm thống kê theo mùa
+SELECT ?season (COUNT(?stat) AS ?numStats)
+WHERE {
+  ?season a ex:Season ;
+          ex:includesPlayerSeasonStats ?stat .
+}
+GROUP BY ?season
+ORDER BY DESC(?numStats)
+
+# 8. Vị trí thi đấu
+SELECT ?pos
+WHERE {
+  ?pos a ex:Position .
+}

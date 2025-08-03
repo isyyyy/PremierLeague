@@ -1,0 +1,127 @@
+# Create schema.ttl to define ontology (classes, properties, domains, ranges)
+
+@prefix ex: <http://example.org/premierleague/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# === Classes ===
+
+ex:Player a owl:Class .
+ex:Club a owl:Class .
+ex:Season a owl:Class .
+ex:PlayerSeasonStats a owl:Class .
+ex:Position a owl:Class .
+ex:Nationality a owl:Class .
+
+# === Datatype Properties ===
+
+ex:hasName a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:dateOfBirth a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:preferredFoot a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:height a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:shirtNumber a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:joinedSeason a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:totalAppearances a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:totalGoals a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:totalAssists a owl:DatatypeProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range rdfs:Literal .
+
+ex:seasonName a owl:DatatypeProperty ;
+    rdfs:domain ex:Season ;
+    rdfs:range rdfs:Literal .
+
+ex:startYear a owl:DatatypeProperty ;
+    rdfs:domain ex:Season ;
+    rdfs:range rdfs:Literal .
+
+ex:endYear a owl:DatatypeProperty ;
+    rdfs:domain ex:Season ;
+    rdfs:range rdfs:Literal .
+
+ex:clubName a owl:DatatypeProperty ;
+    rdfs:domain ex:Club ;
+    rdfs:range rdfs:Literal .
+
+ex:stadium a owl:DatatypeProperty ;
+    rdfs:domain ex:Club ;
+    rdfs:range rdfs:Literal .
+
+ex:latitude a owl:DatatypeProperty ;
+    rdfs:domain ex:Club ;
+    rdfs:range rdfs:Literal .
+
+ex:longitude a owl:DatatypeProperty ;
+    rdfs:domain ex:Club ;
+    rdfs:range rdfs:Literal .
+
+ex:demonym a owl:DatatypeProperty ;
+    rdfs:domain ex:Nationality ;
+    rdfs:range rdfs:Literal .
+
+# === Object Properties ===
+
+ex:playsFor a owl:ObjectProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range ex:Club .
+
+ex:hasPosition a owl:ObjectProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range ex:Position .
+
+ex:hasNationality a owl:ObjectProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range ex:Nationality .
+
+ex:teammateWith a owl:ObjectProperty , owl:SymmetricProperty ;
+    rdfs:domain ex:Player ;
+    rdfs:range ex:Player .
+
+ex:hasPlayer a owl:ObjectProperty ;
+    rdfs:domain ex:Club ;
+    rdfs:range ex:Player .
+
+ex:participatesIn a owl:ObjectProperty ;
+    rdfs:domain ex:Club ;
+    rdfs:range ex:Season .
+
+ex:includesPlayerSeasonStats a owl:ObjectProperty ;
+    rdfs:domain ex:Season ;
+    rdfs:range ex:PlayerSeasonStats .
+
+ex:forPlayer a owl:ObjectProperty ;
+    rdfs:domain ex:PlayerSeasonStats ;
+    rdfs:range ex:Player .
+
+ex:forClub a owl:ObjectProperty ;
+    rdfs:domain ex:PlayerSeasonStats ;
+    rdfs:range ex:Club .
+
+ex:inSeason a owl:ObjectProperty ;
+    rdfs:domain ex:PlayerSeasonStats ;
+    rdfs:range ex:Season .

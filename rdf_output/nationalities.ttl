@@ -1,0 +1,394 @@
+@prefix ex: <http://example.org/premierleague/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:AG a ex:Nationality ;
+    rdfs:label "Antigua & Barbuda" .
+
+ex:AL a ex:Nationality ;
+    rdfs:label "Albania" ;
+    ex:demonym "Albanian" .
+
+ex:AM a ex:Nationality ;
+    rdfs:label "Armenia" ;
+    ex:demonym "Armenian" .
+
+ex:AO a ex:Nationality ;
+    rdfs:label "Angola" ;
+    ex:demonym "Angolan" .
+
+ex:AR a ex:Nationality ;
+    rdfs:label "Argentina" .
+
+ex:AT a ex:Nationality ;
+    rdfs:label "Austria" ;
+    ex:demonym "Austrian" .
+
+ex:AU a ex:Nationality ;
+    rdfs:label "Australia" ;
+    ex:demonym "Australian" .
+
+ex:AZ a ex:Nationality ;
+    rdfs:label "Azerbaijan" ;
+    ex:demonym "Azerbaijani" .
+
+ex:BA a ex:Nationality ;
+    rdfs:label "Bosnia & Herzegovina" ;
+    ex:demonym "Bosnian" .
+
+ex:BD a ex:Nationality ;
+    rdfs:label "Bangladesh" .
+
+ex:BE a ex:Nationality ;
+    rdfs:label "Belgium" ;
+    ex:demonym "Belgian" .
+
+ex:BF a ex:Nationality ;
+    rdfs:label "Burkina Faso" ;
+    ex:demonym "Burkinabès" .
+
+ex:BM a ex:Nationality ;
+    rdfs:label "Bermuda" ;
+    ex:demonym "Bermudian" .
+
+ex:BR a ex:Nationality ;
+    rdfs:label "Brazil" ;
+    ex:demonym "Brazilian" .
+
+ex:CA a ex:Nationality ;
+    rdfs:label "Canada" ;
+    ex:demonym "Canadian" .
+
+ex:CD a ex:Nationality ;
+    rdfs:label "DR Congo" ;
+    ex:demonym "Congolese" .
+
+ex:CG a ex:Nationality ;
+    rdfs:label "Congo" .
+
+ex:CH a ex:Nationality ;
+    rdfs:label "Switzerland" ;
+    ex:demonym "Swiss" .
+
+ex:CI a ex:Nationality ;
+    rdfs:label "Cote d’Ivoire" ;
+    ex:demonym "Ivorian" .
+
+ex:CL a ex:Nationality ;
+    rdfs:label "Chile" ;
+    ex:demonym "Chilean" .
+
+ex:CM a ex:Nationality ;
+    rdfs:label "Cameroon" ;
+    ex:demonym "Cameroonian" .
+
+ex:CO a ex:Nationality ;
+    rdfs:label "Colombia" ;
+    ex:demonym "Colombian" .
+
+ex:CR a ex:Nationality ;
+    rdfs:label "Costa Rica" ;
+    ex:demonym "Costa Rican" .
+
+ex:CU a ex:Nationality ;
+    rdfs:label "Cuba" .
+
+ex:CV a ex:Nationality ;
+    rdfs:label "Cape Verde" ;
+    ex:demonym "Cape Verdean" .
+
+ex:CY a ex:Nationality ;
+    rdfs:label "Cyprus" ;
+    ex:demonym "Cypriot" .
+
+ex:CZ a ex:Nationality ;
+    rdfs:label "Czech Republic" ;
+    ex:demonym "Czech" .
+
+ex:DE a ex:Nationality ;
+    rdfs:label "Germany" ;
+    ex:demonym "German" .
+
+ex:DK a ex:Nationality ;
+    rdfs:label "Denmark" .
+
+ex:DO a ex:Nationality ;
+    rdfs:label "Dominican Republic" .
+
+ex:DZ a ex:Nationality ;
+    rdfs:label "Algeria" ;
+    ex:demonym "Algerian" .
+
+ex:EC a ex:Nationality ;
+    rdfs:label "Ecuador" ;
+    ex:demonym "Ecuadorian" .
+
+ex:EE a ex:Nationality ;
+    rdfs:label "Estonia" ;
+    ex:demonym "Estonian" .
+
+ex:EG a ex:Nationality ;
+    rdfs:label "Egypt" ;
+    ex:demonym "Egyptian" .
+
+ex:ES a ex:Nationality ;
+    rdfs:label "Spain" ;
+    ex:demonym "Spanish" .
+
+ex:FI a ex:Nationality ;
+    rdfs:label "Finland" ;
+    ex:demonym "Finnish" .
+
+ex:FR a ex:Nationality ;
+    rdfs:label "France" ;
+    ex:demonym "French" .
+
+ex:GA a ex:Nationality ;
+    rdfs:label "Gabon" ;
+    ex:demonym "Gabonese" .
+
+ex:GB-ENG a ex:Nationality ;
+    rdfs:label "England" ;
+    ex:demonym "English" .
+
+ex:GB-NIR a ex:Nationality ;
+    rdfs:label "Northern Ireland" ;
+    ex:demonym "Northern Irish" .
+
+ex:GB-SCT a ex:Nationality ;
+    rdfs:label "Scotland" ;
+    ex:demonym "Scottish" .
+
+ex:GB-WLS a ex:Nationality ;
+    rdfs:label "Wales" ;
+    ex:demonym "Welsh" .
+
+ex:GD a ex:Nationality ;
+    rdfs:label "Grenada" .
+
+ex:GH a ex:Nationality ;
+    rdfs:label "Ghana" ;
+    ex:demonym "Ghanan" .
+
+ex:GI a ex:Nationality ;
+    rdfs:label "Gibraltar" .
+
+ex:GM a ex:Nationality ;
+    rdfs:label "Gambia" ;
+    ex:demonym "Gambian" .
+
+ex:GN a ex:Nationality ;
+    rdfs:label "Guinea" ;
+    ex:demonym "Guinean" .
+
+ex:GR a ex:Nationality ;
+    rdfs:label "Greece" ;
+    ex:demonym "Greek" .
+
+ex:GW a ex:Nationality ;
+    rdfs:label "Guinea-Bissau" ;
+    ex:demonym "Guinea-Bissau" .
+
+ex:GY a ex:Nationality ;
+    rdfs:label "Guyana" .
+
+ex:HR a ex:Nationality ;
+    rdfs:label "Croatia" ;
+    ex:demonym "Croatian" .
+
+ex:HU a ex:Nationality ;
+    rdfs:label "Hungary" ;
+    ex:demonym "Hungarian" .
+
+ex:ID a ex:Nationality ;
+    rdfs:label "Indonesia" ;
+    ex:demonym "Indonesian" .
+
+ex:IE a ex:Nationality ;
+    rdfs:label "Ireland" ;
+    ex:demonym "Irish" .
+
+ex:IL a ex:Nationality ;
+    rdfs:label "Israel" ;
+    ex:demonym "Israeli" .
+
+ex:IQ a ex:Nationality ;
+    rdfs:label "Iraq" ;
+    ex:demonym "Iraqi" .
+
+ex:IR a ex:Nationality ;
+    rdfs:label "Iran" ;
+    ex:demonym "Iranian" .
+
+ex:IS a ex:Nationality ;
+    rdfs:label "Iceland" ;
+    ex:demonym "Icelandic" .
+
+ex:IT a ex:Nationality ;
+    rdfs:label "Italy" ;
+    ex:demonym "Italian" .
+
+ex:JM a ex:Nationality ;
+    rdfs:label "Jamaica" ;
+    ex:demonym "Jamaican" .
+
+ex:JP a ex:Nationality ;
+    rdfs:label "Japan" ;
+    ex:demonym "Japanese" .
+
+ex:KN a ex:Nationality ;
+    rdfs:label "St Kitts & Nevis" .
+
+ex:KR a ex:Nationality ;
+    rdfs:label "South Korea" ;
+    ex:demonym "Korean" .
+
+ex:LC a ex:Nationality ;
+    rdfs:label "St Lucia" .
+
+ex:LT a ex:Nationality ;
+    rdfs:label "Lithuania" ;
+    ex:demonym "Lithuianian" .
+
+ex:LU a ex:Nationality ;
+    rdfs:label "Luxembourg" ;
+    ex:demonym "Luxembourger" .
+
+ex:MA a ex:Nationality ;
+    rdfs:label "Morocco" ;
+    ex:demonym "Moroccan" .
+
+ex:ME a ex:Nationality ;
+    rdfs:label "Montenegro" ;
+    ex:demonym "Montenegrin" .
+
+ex:MK a ex:Nationality ;
+    rdfs:label "North Macedonia" ;
+    ex:demonym "Macedonian" .
+
+ex:ML a ex:Nationality ;
+    rdfs:label "Mali" ;
+    ex:demonym "Malian" .
+
+ex:MS a ex:Nationality ;
+    rdfs:label "Montserrat" .
+
+ex:MX a ex:Nationality ;
+    rdfs:label "Mexico" ;
+    ex:demonym "Mexican" .
+
+ex:NG a ex:Nationality ;
+    rdfs:label "Nigeria" ;
+    ex:demonym "Nigerian" .
+
+ex:NL a ex:Nationality ;
+    rdfs:label "Netherlands" ;
+    ex:demonym "Dutch" .
+
+ex:NO a ex:Nationality ;
+    rdfs:label "Norway" ;
+    ex:demonym "Norwegian" .
+
+ex:NZ a ex:Nationality ;
+    rdfs:label "New Zealand" ;
+    ex:demonym "New Zealander" .
+
+ex:PL a ex:Nationality ;
+    rdfs:label "Poland" ;
+    ex:demonym "Polish" .
+
+ex:PT a ex:Nationality ;
+    rdfs:label "Portugal" ;
+    ex:demonym "Portugese" .
+
+ex:PY a ex:Nationality ;
+    rdfs:label "Paraguay" ;
+    ex:demonym "Paraguayan" .
+
+ex:RO a ex:Nationality ;
+    rdfs:label "Romania" ;
+    ex:demonym "Romanian" .
+
+ex:RS a ex:Nationality ;
+    rdfs:label "Serbia" ;
+    ex:demonym "Serbian" .
+
+ex:RW a ex:Nationality ;
+    rdfs:label "Rwanda" .
+
+ex:SE a ex:Nationality ;
+    rdfs:label "Sweden" ;
+    ex:demonym "Swedish" .
+
+ex:SI a ex:Nationality ;
+    rdfs:label "Slovenia" ;
+    ex:demonym "Slovenian" .
+
+ex:SK a ex:Nationality ;
+    rdfs:label "Slovakia" ;
+    ex:demonym "Slovak" .
+
+ex:SL a ex:Nationality ;
+    rdfs:label "Sierra Leone" ;
+    ex:demonym "Sierra Leonean" .
+
+ex:SN a ex:Nationality ;
+    rdfs:label "Senegal" ;
+    ex:demonym "Senegalese" .
+
+ex:SY a ex:Nationality ;
+    rdfs:label "Syria" ;
+    ex:demonym "Syrian" .
+
+ex:TH a ex:Nationality ;
+    rdfs:label "Thailand" .
+
+ex:TN a ex:Nationality ;
+    rdfs:label "Tunisia" ;
+    ex:demonym "Tunisian" .
+
+ex:TR a ex:Nationality ;
+    rdfs:label "Turkey" ;
+    ex:demonym "Turkish" .
+
+ex:TT a ex:Nationality ;
+    rdfs:label "Trinidad & Tobago" ;
+    ex:demonym "Trinidadian/Tobagonian" .
+
+ex:TZ a ex:Nationality ;
+    rdfs:label "Tanzania" .
+
+ex:UA a ex:Nationality ;
+    rdfs:label "Ukraine" ;
+    ex:demonym "Ukrainian" .
+
+ex:US a ex:Nationality ;
+    rdfs:label "United States" ;
+    ex:demonym "American" .
+
+ex:UY a ex:Nationality ;
+    rdfs:label "Uruguay" ;
+    ex:demonym "Uruguayan" .
+
+ex:UZ a ex:Nationality ;
+    rdfs:label "Uzbekistan" ;
+    ex:demonym "Uzbek" .
+
+ex:VE a ex:Nationality ;
+    rdfs:label "Venezuela" ;
+    ex:demonym "Venezuelan" .
+
+ex:XK a ex:Nationality ;
+    rdfs:label "Kosovo" ;
+    ex:demonym "Kosovan" .
+
+ex:ZA a ex:Nationality ;
+    rdfs:label "South Africa" ;
+    ex:demonym "South African" .
+
+ex:ZM a ex:Nationality ;
+    rdfs:label "Zambia" ;
+    ex:demonym "Zambian" .
+
+ex:ZW a ex:Nationality ;
+    rdfs:label "Zimbabwe" .
+
