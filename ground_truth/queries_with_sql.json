@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Goalkeepers taller than 190cm",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%goalkeeper%' AND height_cm > 190"
+  },
+  {
+    "query": "Defenders shorter than 175cm",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%defender%' AND height_cm < 175"
+  },
+  {
+    "query": "Midfielders from France",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%midfielder%' AND nationality = 'France'"
+  },
+  {
+    "query": "Brazilian forwards",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%forward%' AND nationality = 'Brazil'"
+  },
+  {
+    "query": "Players with more than 10 career goals",
+    "sql": "SELECT player_id, full_name FROM players WHERE career_goals > 10"
+  },
+  {
+    "query": "Players with at least 5 career assists",
+    "sql": "SELECT player_id, full_name FROM players WHERE career_assists >= 5"
+  },
+  {
+    "query": "Players from Manchester United",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN player_club_history pch on p.player_id = pch.player_id JOIN clubs c on pch.club_id = c.club_id WHERE c.club_name = 'Manchester United'"
+  },
+  {
+    "query": "Players aged under 21",
+    "sql": "SELECT player_id, full_name FROM players WHERE age < 21"
+  },
+  {
+    "query": "German defenders aged over 30",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%defender%' AND nationality = 'Germany' AND age > 30"
+  },
+  {
+    "query": "English goalkeepers",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%goalkeeper%' AND nationality = 'England'"
+  },
+  {
+    "query": "Players who joined in 2023",
+    "sql": "SELECT player_id, full_name FROM players WHERE joined_season = '2023'"
+  },
+  {
+    "query": "Players whose preferred foot is left",
+    "sql": "SELECT player_id, full_name FROM players WHERE preferred_foot = 'Left'"
+  },
+  {
+    "query": "Players taller than 195cm",
+    "sql": "SELECT player_id, full_name FROM players WHERE height_cm > 195"
+  },
+  {
+    "query": "Players who played in 2022 season",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN season_statistics s ON p.player_id = s.player_id WHERE s.season_id = 2022"
+  },
+  {
+    "query": "Belgian midfielders aged under 25",
+    "sql": "SELECT player_id, full_name FROM players WHERE nationality = 'Belgium' AND position ILIKE '%midfielder%' AND age < 25"
+  },
+  {
+    "query": "Strikers with more than 5 appearances",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%forward%' AND total_appearances > 5"
+  },
+  {
+    "query": "Players with more than 300 minutes played in any season",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN season_statistics s ON p.player_id = s.player_id WHERE s.minutes_played > 300"
+  },
+  {
+    "query": "Players from Spain with over 5 goals",
+    "sql": "SELECT player_id, full_name FROM players WHERE nationality = 'Spain' AND career_goals > 5"
+  },
+  {
+    "query": "French players who played for Arsenal",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN player_club_history pch on p.player_id = pch.player_id JOIN clubs c on pch.club_id = c.club_id WHERE c.club_name = 'Arsenal' and p.nationality = 'France'"
+  },
+  {
+    "query": "Players with at least 2 yellow cards",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN season_statistics s ON p.player_id = s.player_id WHERE s.yellow_cards >= 2"
+  },
+  {
+    "query": "Players who had more than 10 dribbles",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN season_statistics s ON p.player_id = s.player_id WHERE s.dribbles_completed > 10"
+  },
+  {
+    "query": "Players with more than 5 tackles in a season",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN season_statistics s ON p.player_id = s.player_id WHERE s.tackles > 5"
+  },
+  {
+    "query": "Defenders from Netherlands",
+    "sql": "SELECT player_id, full_name FROM players WHERE nationality = 'Netherlands' AND position ILIKE '%defender%'"
+  },
+  {
+    "query": "Youngest players in the database",
+    "sql": "SELECT player_id, full_name FROM players ORDER BY age ASC LIMIT 10"
+  },
+  {
+    "query": "Oldest players in the league",
+    "sql": "SELECT player_id, full_name FROM players ORDER BY age DESC LIMIT 10"
+  },
+  {
+    "query": "Spanish midfielders with fewer than 3 assists",
+    "sql": "SELECT player_id, full_name FROM players WHERE nationality = 'Spain' AND position ILIKE '%midfielder%' AND career_assists < 3"
+  },
+  {
+    "query": "Players from Brazil aged under 25",
+    "sql": "SELECT player_id, full_name FROM players WHERE nationality = 'Brazil' AND age < 25"
+  },
+  {
+    "query": "Goalkeepers with more than 5 clean sheets",
+    "sql": "SELECT player_id, full_name FROM players WHERE position ILIKE '%goalkeeper%' AND total_goals = 0 AND total_appearances >= 5"
+  },
+  {
+    "query": "Players with more than 200 completed passes",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN season_statistics s ON p.player_id = s.player_id WHERE s.passes_completed > 200"
+  },
+  {
+    "query": "Players who committed more than 5 fouls",
+    "sql": "SELECT DISTINCT p.player_id, p.full_name FROM players p JOIN season_statistics s ON p.player_id = s.player_id WHERE s.fouls_committed > 5"
+  }
+]

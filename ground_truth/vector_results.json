@@ -1,0 +1,3749 @@
+[
+  {
+    "query": "Goalkeepers taller than 190cm",
+    "mongo_results": [
+      {
+        "name": "Alex Paulsen",
+        "score": 0.0
+      },
+      {
+        "name": "Callan McKenna",
+        "score": 0.0
+      },
+      {
+        "name": "Brice Samba",
+        "score": 0.0
+      },
+      {
+        "name": "Mohamed Dr\u00e4ger",
+        "score": 0.0
+      },
+      {
+        "name": "Ga\u00ebtan Bong",
+        "score": 0.0
+      },
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 0.0
+      },
+      {
+        "name": "Ivo Grbic",
+        "score": 0.0
+      },
+      {
+        "name": "Serge Aurier",
+        "score": 0.0
+      },
+      {
+        "name": "Andrei Radu",
+        "score": 0.0
+      },
+      {
+        "name": "Baba Fernandes",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Alex Paulsen",
+        "score": 1.0765443
+      },
+      {
+        "name": "Callan McKenna",
+        "score": 1.1088594
+      },
+      {
+        "name": "Brice Samba",
+        "score": 1.1120939
+      },
+      {
+        "name": "Mohamed Dr\u00e4ger",
+        "score": 1.1153352
+      },
+      {
+        "name": "Ga\u00ebtan Bong",
+        "score": 1.115741
+      },
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 1.1168436
+      },
+      {
+        "name": "Ivo Grbic",
+        "score": 1.125365
+      },
+      {
+        "name": "Serge Aurier",
+        "score": 1.1292571
+      },
+      {
+        "name": "Andrei Radu",
+        "score": 1.1311288
+      },
+      {
+        "name": "Baba Fernandes",
+        "score": 1.132706
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Tom Heaton",
+        "score": 0.40794135975947066
+      },
+      {
+        "name": "Adam Davies",
+        "score": 0.3872125731717829
+      },
+      {
+        "name": "Ethan Wady",
+        "score": 0.3866698732695814
+      },
+      {
+        "name": "Emiliano Mart\u00ednez",
+        "score": 0.3758908897121172
+      },
+      {
+        "name": "Marcus Bettinelli",
+        "score": 0.37315087718172313
+      },
+      {
+        "name": "Finley Munroe",
+        "score": 0.3698860541341271
+      },
+      {
+        "name": "Lee Grant",
+        "score": 0.3692875531552394
+      },
+      {
+        "name": "\u00d8rjan Nyland",
+        "score": 0.366328068464126
+      },
+      {
+        "name": "Jordan Stevens",
+        "score": 0.36283094252194337
+      },
+      {
+        "name": "Sergio Romero",
+        "score": 0.36253920789151606
+      }
+    ]
+  },
+  {
+    "query": "Defenders shorter than 175cm",
+    "mongo_results": [
+      {
+        "name": "Matai Akinmboni",
+        "score": 0.0
+      },
+      {
+        "name": "Remy Rees-Dottin",
+        "score": 0.0
+      },
+      {
+        "name": "Alex Paulsen",
+        "score": 0.0
+      },
+      {
+        "name": "Dante Cassanova",
+        "score": 0.0
+      },
+      {
+        "name": "Mohamed Dr\u00e4ger",
+        "score": 0.0
+      },
+      {
+        "name": "Tarik Gidaree",
+        "score": 0.0
+      },
+      {
+        "name": "Francisco Evanilson de Lima Barbosa",
+        "score": 0.0
+      },
+      {
+        "name": "Callum Olusesi",
+        "score": 0.0
+      },
+      {
+        "name": "Owen Bevan",
+        "score": 0.0
+      },
+      {
+        "name": "Ga\u00ebtan Bong",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Matai Akinmboni",
+        "score": 1.1256866
+      },
+      {
+        "name": "Remy Rees-Dottin",
+        "score": 1.134923
+      },
+      {
+        "name": "Alex Paulsen",
+        "score": 1.1420221
+      },
+      {
+        "name": "Dante Cassanova",
+        "score": 1.1554126
+      },
+      {
+        "name": "Mohamed Dr\u00e4ger",
+        "score": 1.1593187
+      },
+      {
+        "name": "Tarik Gidaree",
+        "score": 1.1638608
+      },
+      {
+        "name": "Francisco Evanilson de Lima Barbosa",
+        "score": 1.1665758
+      },
+      {
+        "name": "Callum Olusesi",
+        "score": 1.1674646
+      },
+      {
+        "name": "Owen Bevan",
+        "score": 1.1678035
+      },
+      {
+        "name": "Ga\u00ebtan Bong",
+        "score": 1.1679332
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Dominic Thompson",
+        "score": 0.5200097700810004
+      },
+      {
+        "name": "Isaac Smith",
+        "score": 0.5096324494076602
+      },
+      {
+        "name": "Joshua Wilson-Esbrand",
+        "score": 0.4990573105467677
+      },
+      {
+        "name": "Sam Murray",
+        "score": 0.48199639188533555
+      },
+      {
+        "name": "Lakyle Samuel",
+        "score": 0.47911415467989804
+      },
+      {
+        "name": "William Fish",
+        "score": 0.4777810045595843
+      },
+      {
+        "name": "Max Alleyne",
+        "score": 0.47094433603199487
+      },
+      {
+        "name": "Finley Burns",
+        "score": 0.46102904995013744
+      },
+      {
+        "name": "Conrad Egan-Riley",
+        "score": 0.4531242649606775
+      },
+      {
+        "name": "Evan Easton",
+        "score": 0.45225395385904105
+      }
+    ]
+  },
+  {
+    "query": "Midfielders from France",
+    "mongo_results": [
+      {
+        "name": "Maxence Lacroix",
+        "score": 0.0
+      },
+      {
+        "name": "Jean-Philippe Mateta",
+        "score": 0.0
+      },
+      {
+        "name": "Hugo Lloris",
+        "score": 0.0
+      },
+      {
+        "name": "Michael Olise",
+        "score": 0.0
+      },
+      {
+        "name": "Maxime Le Marchand",
+        "score": 0.0
+      },
+      {
+        "name": "Mathys Tel",
+        "score": 0.0
+      },
+      {
+        "name": "Odsonne \u00c9douard",
+        "score": 0.0
+      },
+      {
+        "name": "Maliq Cadogan",
+        "score": 0.0
+      },
+      {
+        "name": "Daniel Quick",
+        "score": 0.0
+      },
+      {
+        "name": "Bastien Meupiyou",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Maxence Lacroix",
+        "score": 0.9045963
+      },
+      {
+        "name": "Jean-Philippe Mateta",
+        "score": 0.9089683
+      },
+      {
+        "name": "Hugo Lloris",
+        "score": 0.91892785
+      },
+      {
+        "name": "Michael Olise",
+        "score": 0.9443814
+      },
+      {
+        "name": "Maxime Le Marchand",
+        "score": 0.9467904
+      },
+      {
+        "name": "Mathys Tel",
+        "score": 0.948707
+      },
+      {
+        "name": "Odsonne \u00c9douard",
+        "score": 0.9504505
+      },
+      {
+        "name": "Maliq Cadogan",
+        "score": 0.96292084
+      },
+      {
+        "name": "Daniel Quick",
+        "score": 0.9645481
+      },
+      {
+        "name": "Bastien Meupiyou",
+        "score": 0.9727905
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Pierre Ekwah",
+        "score": 0.46529908050454283
+      },
+      {
+        "name": "Anthony Mancini",
+        "score": 0.4652129296563839
+      },
+      {
+        "name": "Mathis Amougou",
+        "score": 0.4640821710358598
+      },
+      {
+        "name": "Romain Faivre",
+        "score": 0.45811580778364264
+      },
+      {
+        "name": "Moussa Diaby",
+        "score": 0.4511346096644421
+      },
+      {
+        "name": "Claudio Gomes",
+        "score": 0.4481342774290434
+      },
+      {
+        "name": "Matteo Guendouzi",
+        "score": 0.4444368014347513
+      },
+      {
+        "name": "Maxime Est\u00e8ve",
+        "score": 0.4417634927397412
+      },
+      {
+        "name": "Billy Koumetio",
+        "score": 0.4410188061291708
+      },
+      {
+        "name": "Florian Lejeune",
+        "score": 0.43888750857384445
+      }
+    ]
+  },
+  {
+    "query": "Brazilian forwards",
+    "mongo_results": [
+      {
+        "name": "Francisco Evanilson de Lima Barbosa",
+        "score": 0.0
+      },
+      {
+        "name": "Rodrigo Muniz Carvalho",
+        "score": 0.0
+      },
+      {
+        "name": "Vitor de Oliveira Nunes dos Reis",
+        "score": 0.0
+      },
+      {
+        "name": "Samir Caetano de Souza Santos",
+        "score": 0.0
+      },
+      {
+        "name": "Victor Alexander da Silva",
+        "score": 0.0
+      },
+      {
+        "name": "Vinicius de Souza Costa",
+        "score": 0.0
+      },
+      {
+        "name": "Matheus Fran\u00e7a de Oliveira",
+        "score": 0.0
+      },
+      {
+        "name": "S\u00e1vio Moreira de Oliveira",
+        "score": 0.0
+      },
+      {
+        "name": "Marcus Vin\u00edcius Oliveira Alencar",
+        "score": 0.0
+      },
+      {
+        "name": "Gustavo Nunes Fernandes Gomes",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Francisco Evanilson de Lima Barbosa",
+        "score": 0.95269334
+      },
+      {
+        "name": "Rodrigo Muniz Carvalho",
+        "score": 0.9538932
+      },
+      {
+        "name": "Vitor de Oliveira Nunes dos Reis",
+        "score": 0.9581628
+      },
+      {
+        "name": "Samir Caetano de Souza Santos",
+        "score": 0.9617133
+      },
+      {
+        "name": "Victor Alexander da Silva",
+        "score": 0.9647622
+      },
+      {
+        "name": "Vinicius de Souza Costa",
+        "score": 0.9678526
+      },
+      {
+        "name": "Matheus Fran\u00e7a de Oliveira",
+        "score": 0.97626346
+      },
+      {
+        "name": "S\u00e1vio Moreira de Oliveira",
+        "score": 0.97821915
+      },
+      {
+        "name": "Marcus Vin\u00edcius Oliveira Alencar",
+        "score": 0.98080283
+      },
+      {
+        "name": "Gustavo Nunes Fernandes Gomes",
+        "score": 0.9910443
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Kaide Gordon",
+        "score": 0.4536047604071486
+      },
+      {
+        "name": "Sam Greenwood",
+        "score": 0.44326239697961806
+      },
+      {
+        "name": "Will Lankshear",
+        "score": 0.4422116251954422
+      },
+      {
+        "name": "Solly March",
+        "score": 0.4308192047789126
+      },
+      {
+        "name": "Ashley Fletcher",
+        "score": 0.43009823821511517
+      },
+      {
+        "name": "Moise Kean",
+        "score": 0.4251880492507577
+      },
+      {
+        "name": "Bryan Gil",
+        "score": 0.42488344809152534
+      },
+      {
+        "name": "Jhon Dur\u00e1n",
+        "score": 0.42063539619832796
+      },
+      {
+        "name": "Isaac Success",
+        "score": 0.41994800538816046
+      },
+      {
+        "name": "Odeluga Offiah",
+        "score": 0.4178401350477497
+      }
+    ]
+  },
+  {
+    "query": "Players with more than 10 career goals",
+    "mongo_results": [
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 0.0
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 0.0
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 0.0
+      },
+      {
+        "name": "Eric Dier",
+        "score": 0.0
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 0.0
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 0.0
+      },
+      {
+        "name": "Lorenz Assignon",
+        "score": 0.0
+      },
+      {
+        "name": "Sergio Reguil\u00f3n",
+        "score": 0.0
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "score": 0.0
+      },
+      {
+        "name": "Robbie Brady",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 0.9380595
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 0.93821985
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 0.9477662
+      },
+      {
+        "name": "Eric Dier",
+        "score": 0.96066713
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 0.9616716
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 0.96432453
+      },
+      {
+        "name": "Lorenz Assignon",
+        "score": 0.9658488
+      },
+      {
+        "name": "Sergio Reguil\u00f3n",
+        "score": 0.96610415
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "score": 0.96945757
+      },
+      {
+        "name": "Robbie Brady",
+        "score": 0.9696801
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Lewis Warrington",
+        "score": 0.4792254318035085
+      },
+      {
+        "name": "Harry Christy",
+        "score": 0.4023874354523751
+      },
+      {
+        "name": "James Trafford",
+        "score": 0.3771505093865888
+      },
+      {
+        "name": "Tyler Morton",
+        "score": 0.3741352283413237
+      },
+      {
+        "name": "Kayne Ramsay",
+        "score": 0.371142518884603
+      },
+      {
+        "name": "Alexander Gibson-Hammond",
+        "score": 0.3634583302414456
+      },
+      {
+        "name": "Christian Saydee",
+        "score": 0.3567928438765961
+      },
+      {
+        "name": "Owen Bevan",
+        "score": 0.3520243327009127
+      },
+      {
+        "name": "Kieran Dowell",
+        "score": 0.34886097609117206
+      },
+      {
+        "name": "Bali Mumba",
+        "score": 0.3473795641132069
+      }
+    ]
+  },
+  {
+    "query": "Players with at least 5 career assists",
+    "mongo_results": [
+      {
+        "name": "Wilson Odobert",
+        "score": 0.0
+      },
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 0.0
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 0.0
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 0.0
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 0.0
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 0.0
+      },
+      {
+        "name": "Kevin Danso",
+        "score": 0.0
+      },
+      {
+        "name": "Bryan Gil",
+        "score": 0.0
+      },
+      {
+        "name": "Tyrese Hall",
+        "score": 0.0
+      },
+      {
+        "name": "Alejo V\u00e9liz",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Wilson Odobert",
+        "score": 1.0419147
+      },
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 1.0533636
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 1.0576509
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 1.0726581
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 1.0896777
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 1.0902878
+      },
+      {
+        "name": "Kevin Danso",
+        "score": 1.0914199
+      },
+      {
+        "name": "Bryan Gil",
+        "score": 1.1031291
+      },
+      {
+        "name": "Tyrese Hall",
+        "score": 1.1039573
+      },
+      {
+        "name": "Alejo V\u00e9liz",
+        "score": 1.1044925
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Sonny Bradley",
+        "score": 0.3580518894755261
+      },
+      {
+        "name": "Joachim Andersen",
+        "score": 0.3385699732575375
+      },
+      {
+        "name": "Samy Sayed Mekawy Said Morsy",
+        "score": 0.3321357780838385
+      },
+      {
+        "name": "William Troost-Ekong",
+        "score": 0.3320649010496753
+      },
+      {
+        "name": "James Chester",
+        "score": 0.3274350824886871
+      },
+      {
+        "name": "Ryan Bennett",
+        "score": 0.30700458864822483
+      },
+      {
+        "name": "Grant Hanley",
+        "score": 0.3012949219831754
+      },
+      {
+        "name": "Harry Maguire",
+        "score": 0.2986385794849973
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "score": 0.29325310402840743
+      },
+      {
+        "name": "Mads Andersen",
+        "score": 0.2927915451179307
+      }
+    ]
+  },
+  {
+    "query": "Players from Manchester United",
+    "mongo_results": [
+      {
+        "name": "Patrick Dorgu",
+        "score": 0.0
+      },
+      {
+        "name": "Tom Wooster",
+        "score": 0.0
+      },
+      {
+        "name": "Logan Pye",
+        "score": 0.0
+      },
+      {
+        "name": "Harry Maguire",
+        "score": 0.0
+      },
+      {
+        "name": "Rapha\u00ebl Varane",
+        "score": 0.0
+      },
+      {
+        "name": "Sam Mather",
+        "score": 0.0
+      },
+      {
+        "name": "Victor Lindel\u00f6f",
+        "score": 0.0
+      },
+      {
+        "name": "Ethan Ennis",
+        "score": 0.0
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "score": 0.0
+      },
+      {
+        "name": "Godwill Kukonki",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Patrick Dorgu",
+        "score": 0.68046963
+      },
+      {
+        "name": "Tom Wooster",
+        "score": 0.6815429
+      },
+      {
+        "name": "Logan Pye",
+        "score": 0.68266046
+      },
+      {
+        "name": "Harry Maguire",
+        "score": 0.68485904
+      },
+      {
+        "name": "Rapha\u00ebl Varane",
+        "score": 0.68495184
+      },
+      {
+        "name": "Sam Mather",
+        "score": 0.685922
+      },
+      {
+        "name": "Victor Lindel\u00f6f",
+        "score": 0.68599856
+      },
+      {
+        "name": "Ethan Ennis",
+        "score": 0.6916314
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "score": 0.6967398
+      },
+      {
+        "name": "Godwill Kukonki",
+        "score": 0.69879544
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Joe Hugill",
+        "score": 0.7713123771823284
+      },
+      {
+        "name": "William Fish",
+        "score": 0.7662385911211995
+      },
+      {
+        "name": "Rhys Bennett",
+        "score": 0.7407616697136084
+      },
+      {
+        "name": "Sam Murray",
+        "score": 0.738908108681547
+      },
+      {
+        "name": "Tom Heaton",
+        "score": 0.7331197845970722
+      },
+      {
+        "name": "Nathan Bishop",
+        "score": 0.7170121719814726
+      },
+      {
+        "name": "Shola Shoretire",
+        "score": 0.7109390335028589
+      },
+      {
+        "name": "Phil Jones",
+        "score": 0.6990041225242218
+      },
+      {
+        "name": "Charlie Savage",
+        "score": 0.6908073319569699
+      },
+      {
+        "name": "\u00c1lvaro Fern\u00e1ndez",
+        "score": 0.6904050713113422
+      }
+    ]
+  },
+  {
+    "query": "Players aged under 21",
+    "mongo_results": [
+      {
+        "name": "Nikola Karczewska",
+        "score": 0.0
+      },
+      {
+        "name": "Billy Arce",
+        "score": 0.0
+      },
+      {
+        "name": "Gon\u00e7alo Manuel Ganchinho Guedes",
+        "score": 0.0
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 0.0
+      },
+      {
+        "name": "Philip Zinckernagel",
+        "score": 0.0
+      },
+      {
+        "name": "Brice Samba",
+        "score": 0.0
+      },
+      {
+        "name": "Pontus Dahlberg",
+        "score": 0.0
+      },
+      {
+        "name": "Jay-Roy Grot",
+        "score": 0.0
+      },
+      {
+        "name": "Joel Robles",
+        "score": 0.0
+      },
+      {
+        "name": "Mislav Orsic",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Nikola Karczewska",
+        "score": 1.0015609
+      },
+      {
+        "name": "Billy Arce",
+        "score": 1.0043597
+      },
+      {
+        "name": "Gon\u00e7alo Manuel Ganchinho Guedes",
+        "score": 1.0160725
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 1.0211762
+      },
+      {
+        "name": "Philip Zinckernagel",
+        "score": 1.0215054
+      },
+      {
+        "name": "Brice Samba",
+        "score": 1.0239941
+      },
+      {
+        "name": "Pontus Dahlberg",
+        "score": 1.0268848
+      },
+      {
+        "name": "Jay-Roy Grot",
+        "score": 1.0291138
+      },
+      {
+        "name": "Joel Robles",
+        "score": 1.030017
+      },
+      {
+        "name": "Mislav Orsic",
+        "score": 1.0306343
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Dion Pereira",
+        "score": 0.8951156116260108
+      },
+      {
+        "name": "Jay Turner-Cooke",
+        "score": 0.2747801866942833
+      },
+      {
+        "name": "Jamie Miley",
+        "score": 0.26253402008351895
+      },
+      {
+        "name": "Kelland Watts",
+        "score": 0.2507491157925337
+      },
+      {
+        "name": "Connor Roberts",
+        "score": 0.2422142645615823
+      },
+      {
+        "name": "Maxime Est\u00e8ve",
+        "score": 0.23015207283555808
+      },
+      {
+        "name": "Erling Haaland",
+        "score": 0.22919136176004698
+      },
+      {
+        "name": "Asmita Ale",
+        "score": 0.2281915750627465
+      },
+      {
+        "name": "Pierluigi Gollini",
+        "score": 0.22292724377371165
+      },
+      {
+        "name": "Benjamin Mendy",
+        "score": 0.22036917705902323
+      }
+    ]
+  },
+  {
+    "query": "German defenders aged over 30",
+    "mongo_results": [
+      {
+        "name": "Jordan Beyer",
+        "score": 0.0
+      },
+      {
+        "name": "Kevin Schade",
+        "score": 0.0
+      },
+      {
+        "name": "Kwadwo Baah",
+        "score": 0.0
+      },
+      {
+        "name": "Vitaly Janelt",
+        "score": 0.0
+      },
+      {
+        "name": "Armel Bella-Kotchap",
+        "score": 0.0
+      },
+      {
+        "name": "Henrik Dalsgaard",
+        "score": 0.0
+      },
+      {
+        "name": "Milos Kerkez",
+        "score": 0.0
+      },
+      {
+        "name": "Thilo Kehrer",
+        "score": 0.0
+      },
+      {
+        "name": "Sepp van den Berg",
+        "score": 0.0
+      },
+      {
+        "name": "Max Meyer",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Jordan Beyer",
+        "score": 1.0870218
+      },
+      {
+        "name": "Kevin Schade",
+        "score": 1.0884702
+      },
+      {
+        "name": "Kwadwo Baah",
+        "score": 1.0994823
+      },
+      {
+        "name": "Vitaly Janelt",
+        "score": 1.1008558
+      },
+      {
+        "name": "Armel Bella-Kotchap",
+        "score": 1.1093079
+      },
+      {
+        "name": "Henrik Dalsgaard",
+        "score": 1.1122676
+      },
+      {
+        "name": "Milos Kerkez",
+        "score": 1.1226604
+      },
+      {
+        "name": "Thilo Kehrer",
+        "score": 1.1288083
+      },
+      {
+        "name": "Sepp van den Berg",
+        "score": 1.1310737
+      },
+      {
+        "name": "Max Meyer",
+        "score": 1.1314334
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Dion Pereira",
+        "score": 0.8477406071058632
+      },
+      {
+        "name": "Erling Haaland",
+        "score": 0.2785873763860068
+      },
+      {
+        "name": "Fikayo Tomori",
+        "score": 0.276069917878625
+      },
+      {
+        "name": "Benjamin Mendy",
+        "score": 0.27495343059628996
+      },
+      {
+        "name": "Johnny Emerson",
+        "score": 0.2737489237673138
+      },
+      {
+        "name": "Steven Bergwijn",
+        "score": 0.2724733304733115
+      },
+      {
+        "name": "Axel Piesold",
+        "score": 0.2687335544990492
+      },
+      {
+        "name": "Kelland Watts",
+        "score": 0.2640912925664441
+      },
+      {
+        "name": "Maxime Est\u00e8ve",
+        "score": 0.2639451549913568
+      },
+      {
+        "name": "Pervis Estupi\u00f1\u00e1n",
+        "score": 0.2587601974691172
+      }
+    ]
+  },
+  {
+    "query": "English goalkeepers",
+    "mongo_results": [
+      {
+        "name": "Cameron Plain",
+        "score": 0.0
+      },
+      {
+        "name": "Zeno Rossi",
+        "score": 0.0
+      },
+      {
+        "name": "Remy Rees-Dottin",
+        "score": 0.0
+      },
+      {
+        "name": "Alex Paulsen",
+        "score": 0.0
+      },
+      {
+        "name": "Joe Worrall",
+        "score": 0.0
+      },
+      {
+        "name": "Stevie Bausor",
+        "score": 0.0
+      },
+      {
+        "name": "Zain Silcott-Duberry",
+        "score": 0.0
+      },
+      {
+        "name": "Callan McKenna",
+        "score": 0.0
+      },
+      {
+        "name": "Ben Winterburn",
+        "score": 0.0
+      },
+      {
+        "name": "Lewis Cook",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Cameron Plain",
+        "score": 0.99506867
+      },
+      {
+        "name": "Zeno Rossi",
+        "score": 0.9974146
+      },
+      {
+        "name": "Remy Rees-Dottin",
+        "score": 0.9999424
+      },
+      {
+        "name": "Alex Paulsen",
+        "score": 1.0049162
+      },
+      {
+        "name": "Joe Worrall",
+        "score": 1.0118151
+      },
+      {
+        "name": "Stevie Bausor",
+        "score": 1.0148381
+      },
+      {
+        "name": "Zain Silcott-Duberry",
+        "score": 1.0156949
+      },
+      {
+        "name": "Callan McKenna",
+        "score": 1.0180507
+      },
+      {
+        "name": "Ben Winterburn",
+        "score": 1.0189412
+      },
+      {
+        "name": "Lewis Cook",
+        "score": 1.0235806
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Tom Heaton",
+        "score": 0.40794135975947066
+      },
+      {
+        "name": "Adam Davies",
+        "score": 0.3872125731717829
+      },
+      {
+        "name": "Ethan Wady",
+        "score": 0.3866698732695814
+      },
+      {
+        "name": "Emiliano Mart\u00ednez",
+        "score": 0.3758908897121172
+      },
+      {
+        "name": "Marcus Bettinelli",
+        "score": 0.37315087718172313
+      },
+      {
+        "name": "Finley Munroe",
+        "score": 0.3698860541341271
+      },
+      {
+        "name": "Lee Grant",
+        "score": 0.3692875531552394
+      },
+      {
+        "name": "\u00d8rjan Nyland",
+        "score": 0.366328068464126
+      },
+      {
+        "name": "Jordan Stevens",
+        "score": 0.36283094252194337
+      },
+      {
+        "name": "Sergio Romero",
+        "score": 0.36253920789151606
+      }
+    ]
+  },
+  {
+    "query": "Players who joined in 2023",
+    "mongo_results": [
+      {
+        "name": "Rodrigo Bentancur",
+        "score": 0.0
+      },
+      {
+        "name": "Nikola Karczewska",
+        "score": 0.0
+      },
+      {
+        "name": "George Lewis",
+        "score": 0.0
+      },
+      {
+        "name": "Josh Oluwayemi",
+        "score": 0.0
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 0.0
+      },
+      {
+        "name": "Kevin Danso",
+        "score": 0.0
+      },
+      {
+        "name": "Luca Williams-Barnett",
+        "score": 0.0
+      },
+      {
+        "name": "Paul Appiah",
+        "score": 0.0
+      },
+      {
+        "name": "Jubril Okedina",
+        "score": 0.0
+      },
+      {
+        "name": "Tobi Omole",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Rodrigo Bentancur",
+        "score": 1.0935326
+      },
+      {
+        "name": "Nikola Karczewska",
+        "score": 1.0940435
+      },
+      {
+        "name": "George Lewis",
+        "score": 1.1487653
+      },
+      {
+        "name": "Josh Oluwayemi",
+        "score": 1.1558172
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 1.157939
+      },
+      {
+        "name": "Kevin Danso",
+        "score": 1.1624525
+      },
+      {
+        "name": "Luca Williams-Barnett",
+        "score": 1.1705862
+      },
+      {
+        "name": "Paul Appiah",
+        "score": 1.1758101
+      },
+      {
+        "name": "Jubril Okedina",
+        "score": 1.180182
+      },
+      {
+        "name": "Tobi Omole",
+        "score": 1.1865605
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Axel Piesold",
+        "score": 0.5821187990285589
+      },
+      {
+        "name": "Brandon Williams",
+        "score": 0.5240219620972187
+      },
+      {
+        "name": "Luke Harris",
+        "score": 0.5170120701940136
+      },
+      {
+        "name": "John McAtee",
+        "score": 0.5103783436705391
+      },
+      {
+        "name": "Jacob Wright",
+        "score": 0.5077297858126983
+      },
+      {
+        "name": "Connor Roberts",
+        "score": 0.5074452277932878
+      },
+      {
+        "name": "James Milner",
+        "score": 0.5071985901973196
+      },
+      {
+        "name": "Aidan Harris",
+        "score": 0.5070668217142874
+      },
+      {
+        "name": "Jack O'Connell",
+        "score": 0.5051204130648488
+      },
+      {
+        "name": "Benjamin Arthur",
+        "score": 0.5048355468482757
+      }
+    ]
+  },
+  {
+    "query": "Players whose preferred foot is left",
+    "mongo_results": [
+      {
+        "name": "Joseph McGlynn",
+        "score": 0.0
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "score": 0.0
+      },
+      {
+        "name": "Joe Bauress",
+        "score": 0.0
+      },
+      {
+        "name": "Anass Zaroury",
+        "score": 0.0
+      },
+      {
+        "name": "Lyle Foster",
+        "score": 0.0
+      },
+      {
+        "name": "Sander Berge",
+        "score": 0.0
+      },
+      {
+        "name": "Jordan Beyer",
+        "score": 0.0
+      },
+      {
+        "name": "Matej Vydra",
+        "score": 0.0
+      },
+      {
+        "name": "Joel Mumbongo",
+        "score": 0.0
+      },
+      {
+        "name": "Matthew Dibley-Dias",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Joseph McGlynn",
+        "score": 1.104608
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "score": 1.107154
+      },
+      {
+        "name": "Joe Bauress",
+        "score": 1.116103
+      },
+      {
+        "name": "Anass Zaroury",
+        "score": 1.1208624
+      },
+      {
+        "name": "Lyle Foster",
+        "score": 1.1220627
+      },
+      {
+        "name": "Sander Berge",
+        "score": 1.124269
+      },
+      {
+        "name": "Jordan Beyer",
+        "score": 1.1254444
+      },
+      {
+        "name": "Matej Vydra",
+        "score": 1.1266949
+      },
+      {
+        "name": "Joel Mumbongo",
+        "score": 1.1288989
+      },
+      {
+        "name": "Matthew Dibley-Dias",
+        "score": 1.1309742
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Omari Kellyman",
+        "score": 0.5085566195795862
+      },
+      {
+        "name": "Luke Chambers",
+        "score": 0.432111664138976
+      },
+      {
+        "name": "Oscar Bobb",
+        "score": 0.4241504718692169
+      },
+      {
+        "name": "John Ruddy",
+        "score": 0.41867469954054654
+      },
+      {
+        "name": "Bastien Meupiyou",
+        "score": 0.4155207112357905
+      },
+      {
+        "name": "Owen Beck",
+        "score": 0.4125713983497433
+      },
+      {
+        "name": "Carlos Vin\u00edcius Alves Morais",
+        "score": 0.4102088514168573
+      },
+      {
+        "name": "Kean Bryan",
+        "score": 0.41000838243126336
+      },
+      {
+        "name": "Moussa Niakhat\u00e9",
+        "score": 0.4063800793312293
+      },
+      {
+        "name": "Samuel Rak-Sakyi",
+        "score": 0.4050810494956647
+      }
+    ]
+  },
+  {
+    "query": "Players taller than 195cm",
+    "mongo_results": [
+      {
+        "name": "Nikola Karczewska",
+        "score": 0.0
+      },
+      {
+        "name": "Min-Hyeok Yang",
+        "score": 0.0
+      },
+      {
+        "name": "Gon\u00e7alo Manuel Ganchinho Guedes",
+        "score": 0.0
+      },
+      {
+        "name": "Dante Cassanova",
+        "score": 0.0
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 0.0
+      },
+      {
+        "name": "Mohamed Dr\u00e4ger",
+        "score": 0.0
+      },
+      {
+        "name": "Callum Olusesi",
+        "score": 0.0
+      },
+      {
+        "name": "Joel Ndala",
+        "score": 0.0
+      },
+      {
+        "name": "Kevin Danso",
+        "score": 0.0
+      },
+      {
+        "name": "Tobias Pereira Figueiredo",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Nikola Karczewska",
+        "score": 1.1056373
+      },
+      {
+        "name": "Min-Hyeok Yang",
+        "score": 1.1083772
+      },
+      {
+        "name": "Gon\u00e7alo Manuel Ganchinho Guedes",
+        "score": 1.1085496
+      },
+      {
+        "name": "Dante Cassanova",
+        "score": 1.1236552
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 1.1291226
+      },
+      {
+        "name": "Mohamed Dr\u00e4ger",
+        "score": 1.13199
+      },
+      {
+        "name": "Callum Olusesi",
+        "score": 1.1409465
+      },
+      {
+        "name": "Joel Ndala",
+        "score": 1.1459144
+      },
+      {
+        "name": "Kevin Danso",
+        "score": 1.146229
+      },
+      {
+        "name": "Tobias Pereira Figueiredo",
+        "score": 1.146258
+      }
+    ],
+    "graphdb_results": []
+  },
+  {
+    "query": "Players who played in 2022 season",
+    "mongo_results": [
+      {
+        "name": "Rodrigo Bentancur",
+        "score": 0.0
+      },
+      {
+        "name": "Nikola Karczewska",
+        "score": 0.0
+      },
+      {
+        "name": "Josh Oluwayemi",
+        "score": 0.0
+      },
+      {
+        "name": "Jubril Okedina",
+        "score": 0.0
+      },
+      {
+        "name": "Matthew Craig",
+        "score": 0.0
+      },
+      {
+        "name": "Bryan Gil",
+        "score": 0.0
+      },
+      {
+        "name": "Dane Scarlett",
+        "score": 0.0
+      },
+      {
+        "name": "Francisco Ant\u00f3nio Machado Trinc\u00e3o",
+        "score": 0.0
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 0.0
+      },
+      {
+        "name": "Bruno Andr\u00e9 Cavaco Jord\u00e3o",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Rodrigo Bentancur",
+        "score": 1.1396093
+      },
+      {
+        "name": "Nikola Karczewska",
+        "score": 1.1414881
+      },
+      {
+        "name": "Josh Oluwayemi",
+        "score": 1.161097
+      },
+      {
+        "name": "Jubril Okedina",
+        "score": 1.1734018
+      },
+      {
+        "name": "Matthew Craig",
+        "score": 1.1850398
+      },
+      {
+        "name": "Bryan Gil",
+        "score": 1.185961
+      },
+      {
+        "name": "Dane Scarlett",
+        "score": 1.188252
+      },
+      {
+        "name": "Francisco Ant\u00f3nio Machado Trinc\u00e3o",
+        "score": 1.1900263
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "score": 1.1922586
+      },
+      {
+        "name": "Bruno Andr\u00e9 Cavaco Jord\u00e3o",
+        "score": 1.1985289
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Tyler Roberts",
+        "score": 0.5710413647394533
+      },
+      {
+        "name": "William Fish",
+        "score": 0.5655270967041364
+      },
+      {
+        "name": "Luke Harris",
+        "score": 0.564389380335461
+      },
+      {
+        "name": "Lewis Bate",
+        "score": 0.5608832312756595
+      },
+      {
+        "name": "Nathan Bishop",
+        "score": 0.5510530034380217
+      },
+      {
+        "name": "Lewis Dobbin",
+        "score": 0.5496466695868204
+      },
+      {
+        "name": "Sam Greenwood",
+        "score": 0.5495487952046074
+      },
+      {
+        "name": "Joe Gelhardt",
+        "score": 0.5474619537429393
+      },
+      {
+        "name": "Junior Stanislas",
+        "score": 0.5466837049664719
+      },
+      {
+        "name": "Lewis Brunt",
+        "score": 0.5434458727058155
+      }
+    ]
+  },
+  {
+    "query": "Belgian midfielders aged under 25",
+    "mongo_results": [
+      {
+        "name": "Erik Pieters",
+        "score": 0.0
+      },
+      {
+        "name": "Tyrese Omotoye",
+        "score": 0.0
+      },
+      {
+        "name": "Samuel Bastien",
+        "score": 0.0
+      },
+      {
+        "name": "Brice Samba",
+        "score": 0.0
+      },
+      {
+        "name": "Ga\u00ebtan Bong",
+        "score": 0.0
+      },
+      {
+        "name": "Marcel Lavinier",
+        "score": 0.0
+      },
+      {
+        "name": "Serge Aurier",
+        "score": 0.0
+      },
+      {
+        "name": "Marco Stiepermann",
+        "score": 0.0
+      },
+      {
+        "name": "Danel Sinani",
+        "score": 0.0
+      },
+      {
+        "name": "Ateef Konate",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Erik Pieters",
+        "score": 0.9626748
+      },
+      {
+        "name": "Tyrese Omotoye",
+        "score": 0.96458197
+      },
+      {
+        "name": "Samuel Bastien",
+        "score": 0.97157824
+      },
+      {
+        "name": "Brice Samba",
+        "score": 0.971748
+      },
+      {
+        "name": "Ga\u00ebtan Bong",
+        "score": 0.97649485
+      },
+      {
+        "name": "Marcel Lavinier",
+        "score": 0.9819256
+      },
+      {
+        "name": "Serge Aurier",
+        "score": 0.9840555
+      },
+      {
+        "name": "Marco Stiepermann",
+        "score": 0.9880793
+      },
+      {
+        "name": "Danel Sinani",
+        "score": 0.992188
+      },
+      {
+        "name": "Ateef Konate",
+        "score": 0.99515784
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Dion Pereira",
+        "score": 0.9000466174560782
+      },
+      {
+        "name": "Jay Turner-Cooke",
+        "score": 0.31104472012380335
+      },
+      {
+        "name": "Jamie Miley",
+        "score": 0.30758474111059103
+      },
+      {
+        "name": "Connor Roberts",
+        "score": 0.2635571878601154
+      },
+      {
+        "name": "Kelland Watts",
+        "score": 0.2600459659055566
+      },
+      {
+        "name": "Erling Haaland",
+        "score": 0.25295243733495765
+      },
+      {
+        "name": "Maxime Est\u00e8ve",
+        "score": 0.2529281115542087
+      },
+      {
+        "name": "Dion Rankine",
+        "score": 0.2524958633278239
+      },
+      {
+        "name": "Bashir Humphreys",
+        "score": 0.24779424363599797
+      },
+      {
+        "name": "Lewis Richardson",
+        "score": 0.24633364015360704
+      }
+    ]
+  },
+  {
+    "query": "Strikers with more than 5 appearances",
+    "mongo_results": [
+      {
+        "name": "Jos\u00e9 Pedro Malheiro de S\u00e1",
+        "score": 0.0
+      },
+      {
+        "name": "Orel Mangala",
+        "score": 0.0
+      },
+      {
+        "name": "Lucas Rodrigues Moura da Silva",
+        "score": 0.0
+      },
+      {
+        "name": "Jo\u00e3o Filipe Iria Santos Moutinho",
+        "score": 0.0
+      },
+      {
+        "name": "Fernando Mar\u00e7al de Oliveira",
+        "score": 0.0
+      },
+      {
+        "name": "Matheus Luiz Nunes",
+        "score": 0.0
+      },
+      {
+        "name": "Emerson Aparecido Leite de Souza Junior",
+        "score": 0.0
+      },
+      {
+        "name": "Willy Boly",
+        "score": 0.0
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 0.0
+      },
+      {
+        "name": "Matheus Santos Carneiro Da Cunha",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Jos\u00e9 Pedro Malheiro de S\u00e1",
+        "score": 0.94623995
+      },
+      {
+        "name": "Orel Mangala",
+        "score": 0.9493933
+      },
+      {
+        "name": "Lucas Rodrigues Moura da Silva",
+        "score": 0.9604218
+      },
+      {
+        "name": "Jo\u00e3o Filipe Iria Santos Moutinho",
+        "score": 0.96349275
+      },
+      {
+        "name": "Fernando Mar\u00e7al de Oliveira",
+        "score": 0.9659254
+      },
+      {
+        "name": "Matheus Luiz Nunes",
+        "score": 0.9673431
+      },
+      {
+        "name": "Emerson Aparecido Leite de Souza Junior",
+        "score": 0.96782434
+      },
+      {
+        "name": "Willy Boly",
+        "score": 0.97048485
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 0.9726602
+      },
+      {
+        "name": "Matheus Santos Carneiro Da Cunha",
+        "score": 0.9730647
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Sonny Bradley",
+        "score": 0.3580518894755261
+      },
+      {
+        "name": "Joachim Andersen",
+        "score": 0.3385699732575375
+      },
+      {
+        "name": "Samy Sayed Mekawy Said Morsy",
+        "score": 0.3321357780838385
+      },
+      {
+        "name": "William Troost-Ekong",
+        "score": 0.3320649010496753
+      },
+      {
+        "name": "James Chester",
+        "score": 0.3274350824886871
+      },
+      {
+        "name": "Ryan Bennett",
+        "score": 0.30700458864822483
+      },
+      {
+        "name": "Grant Hanley",
+        "score": 0.3012949219831754
+      },
+      {
+        "name": "Harry Maguire",
+        "score": 0.2986385794849973
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "score": 0.29325310402840743
+      },
+      {
+        "name": "Mads Andersen",
+        "score": 0.2927915451179307
+      }
+    ]
+  },
+  {
+    "query": "Players with more than 300 minutes played in any season",
+    "mongo_results": [
+      {
+        "name": "Aaron Hickey",
+        "score": 0.0
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 0.0
+      },
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 0.0
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 0.0
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 0.0
+      },
+      {
+        "name": "Michael Kayode",
+        "score": 0.0
+      },
+      {
+        "name": "Mathias Jensen",
+        "score": 0.0
+      },
+      {
+        "name": "Harry Winks",
+        "score": 0.0
+      },
+      {
+        "name": "Mads Roerslev",
+        "score": 0.0
+      },
+      {
+        "name": "Pontus Jansson",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Aaron Hickey",
+        "score": 1.1802256
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 1.1943288
+      },
+      {
+        "name": "Anton\u00edn Kinsky",
+        "score": 1.2103068
+      },
+      {
+        "name": "Ivan Perisic",
+        "score": 1.2111521
+      },
+      {
+        "name": "Lucas Bergvall",
+        "score": 1.2156593
+      },
+      {
+        "name": "Michael Kayode",
+        "score": 1.2198052
+      },
+      {
+        "name": "Mathias Jensen",
+        "score": 1.2227603
+      },
+      {
+        "name": "Harry Winks",
+        "score": 1.223244
+      },
+      {
+        "name": "Mads Roerslev",
+        "score": 1.2254009
+      },
+      {
+        "name": "Pontus Jansson",
+        "score": 1.2284672
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Anis Ben Slimane",
+        "score": 0.8157810164295182
+      },
+      {
+        "name": "Winston Reid",
+        "score": 0.27647496694466317
+      },
+      {
+        "name": "Karl Hein",
+        "score": 0.2509563022869289
+      },
+      {
+        "name": "Sai Sachdev",
+        "score": 0.22829793030496423
+      },
+      {
+        "name": "Ciaran Clark",
+        "score": 0.22658030003456134
+      },
+      {
+        "name": "Christian Benteke",
+        "score": 0.21217686374463957
+      },
+      {
+        "name": "Julian Jeanvier",
+        "score": 0.1960237992146137
+      },
+      {
+        "name": "Stuart Dallas",
+        "score": 0.19419604471623253
+      },
+      {
+        "name": "Mungo Bridge",
+        "score": 0.18716470317043118
+      },
+      {
+        "name": "Jo\u00ebl Veltman",
+        "score": 0.18553522809610878
+      }
+    ]
+  },
+  {
+    "query": "Players from Spain with over 5 goals",
+    "mongo_results": [
+      {
+        "name": "Mikel Merino",
+        "score": 0.0
+      },
+      {
+        "name": "Maurizio Pochettino",
+        "score": 0.0
+      },
+      {
+        "name": "Yago de Santiago Alonso",
+        "score": 0.0
+      },
+      {
+        "name": "Jorge Cuenca",
+        "score": 0.0
+      },
+      {
+        "name": "Ayoze P\u00e9rez",
+        "score": 0.0
+      },
+      {
+        "name": "Sergio Reguil\u00f3n",
+        "score": 0.0
+      },
+      {
+        "name": "Francisco Casilla Cort\u00e9s",
+        "score": 0.0
+      },
+      {
+        "name": "Stefan Bajcetic",
+        "score": 0.0
+      },
+      {
+        "name": "Joel Lopez Salguero",
+        "score": 0.0
+      },
+      {
+        "name": "David Raya",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Mikel Merino",
+        "score": 0.8234472
+      },
+      {
+        "name": "Maurizio Pochettino",
+        "score": 0.8367749
+      },
+      {
+        "name": "Yago de Santiago Alonso",
+        "score": 0.8562464
+      },
+      {
+        "name": "Jorge Cuenca",
+        "score": 0.86105937
+      },
+      {
+        "name": "Ayoze P\u00e9rez",
+        "score": 0.8826562
+      },
+      {
+        "name": "Sergio Reguil\u00f3n",
+        "score": 0.8850441
+      },
+      {
+        "name": "Francisco Casilla Cort\u00e9s",
+        "score": 0.8879571
+      },
+      {
+        "name": "Stefan Bajcetic",
+        "score": 0.88900405
+      },
+      {
+        "name": "Joel Lopez Salguero",
+        "score": 0.89072627
+      },
+      {
+        "name": "David Raya",
+        "score": 0.8925113
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Pablo Moreno",
+        "score": 0.4484920979737739
+      },
+      {
+        "name": "Samy Sayed Mekawy Said Morsy",
+        "score": 0.40823111802257694
+      },
+      {
+        "name": "Nico Gonz\u00e1lez",
+        "score": 0.354509988944897
+      },
+      {
+        "name": "Jos\u00e9 Mateo Mej\u00eda Piedrahita",
+        "score": 0.3542830636303539
+      },
+      {
+        "name": "Marc Navarro",
+        "score": 0.353690763414856
+      },
+      {
+        "name": "Adri\u00e1n Bernab\u00e9",
+        "score": 0.3495266802772264
+      },
+      {
+        "name": "William Troost-Ekong",
+        "score": 0.33885713354233
+      },
+      {
+        "name": "Iker Pozo",
+        "score": 0.32782002074962735
+      },
+      {
+        "name": "Hugo Bueno",
+        "score": 0.3193821717266993
+      },
+      {
+        "name": "Ryan Bennett",
+        "score": 0.3134425226974141
+      }
+    ]
+  },
+  {
+    "query": "French players who played for Arsenal",
+    "mongo_results": [
+      {
+        "name": "Alexandre Lacazette",
+        "score": 0.0
+      },
+      {
+        "name": "Nicolas P\u00e9p\u00e9",
+        "score": 0.0
+      },
+      {
+        "name": "F\u00e1bio Daniel Ferreira Vieira",
+        "score": 0.0
+      },
+      {
+        "name": "Lucas Nygaard",
+        "score": 0.0
+      },
+      {
+        "name": "H\u00e9ctor Beller\u00edn",
+        "score": 0.0
+      },
+      {
+        "name": "Shkodran Mustafi",
+        "score": 0.0
+      },
+      {
+        "name": "Tyreece John-Jules",
+        "score": 0.0
+      },
+      {
+        "name": "C\u00e9dric Ricardo Alves Soares",
+        "score": 0.0
+      },
+      {
+        "name": "Jurri\u00ebn Timber",
+        "score": 0.0
+      },
+      {
+        "name": "Martin \u00d8degaard",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Alexandre Lacazette",
+        "score": 0.66788256
+      },
+      {
+        "name": "Nicolas P\u00e9p\u00e9",
+        "score": 0.76061547
+      },
+      {
+        "name": "F\u00e1bio Daniel Ferreira Vieira",
+        "score": 0.8065071
+      },
+      {
+        "name": "Lucas Nygaard",
+        "score": 0.81881833
+      },
+      {
+        "name": "H\u00e9ctor Beller\u00edn",
+        "score": 0.8207009
+      },
+      {
+        "name": "Shkodran Mustafi",
+        "score": 0.82782423
+      },
+      {
+        "name": "Tyreece John-Jules",
+        "score": 0.8294157
+      },
+      {
+        "name": "C\u00e9dric Ricardo Alves Soares",
+        "score": 0.82974976
+      },
+      {
+        "name": "Jurri\u00ebn Timber",
+        "score": 0.83125395
+      },
+      {
+        "name": "Martin \u00d8degaard",
+        "score": 0.8322965
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "James Hillson",
+        "score": 0.6888033471291829
+      },
+      {
+        "name": "Matt Smith",
+        "score": 0.6704056882966798
+      },
+      {
+        "name": "Arthur Okonkwo",
+        "score": 0.6352966597037357
+      },
+      {
+        "name": "Bradley Ibrahim",
+        "score": 0.6051013359406002
+      },
+      {
+        "name": "Charles Sagoe Junior",
+        "score": 0.6033503153369387
+      },
+      {
+        "name": "Charlie Patino",
+        "score": 0.6022611850333854
+      },
+      {
+        "name": "Mika Biereth",
+        "score": 0.5965637959720973
+      },
+      {
+        "name": "Mauro Bandeira",
+        "score": 0.5911999243657529
+      },
+      {
+        "name": "Miguel Azeez",
+        "score": 0.588723821740413
+      },
+      {
+        "name": "Nathan Butler-Oyedeji",
+        "score": 0.5594701185867146
+      }
+    ]
+  },
+  {
+    "query": "Players with at least 2 yellow cards",
+    "mongo_results": [
+      {
+        "name": "Keylor Navas",
+        "score": 0.0
+      },
+      {
+        "name": "Pedro Henrique Cardoso de Lima",
+        "score": 0.0
+      },
+      {
+        "name": "Mateus Cardoso Lemos Martins",
+        "score": 0.0
+      },
+      {
+        "name": "Mark Gillespie",
+        "score": 0.0
+      },
+      {
+        "name": "Joe Worrall",
+        "score": 0.0
+      },
+      {
+        "name": "Sandro Tonali",
+        "score": 0.0
+      },
+      {
+        "name": "Garang Kuol",
+        "score": 0.0
+      },
+      {
+        "name": "Luca Koleosho",
+        "score": 0.0
+      },
+      {
+        "name": "Juan Larios L\u00f3pez",
+        "score": 0.0
+      },
+      {
+        "name": "Bruno Guimar\u00e3es Rodriguez Moura",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Keylor Navas",
+        "score": 1.0135057
+      },
+      {
+        "name": "Pedro Henrique Cardoso de Lima",
+        "score": 1.0146682
+      },
+      {
+        "name": "Mateus Cardoso Lemos Martins",
+        "score": 1.0333139
+      },
+      {
+        "name": "Mark Gillespie",
+        "score": 1.0423025
+      },
+      {
+        "name": "Joe Worrall",
+        "score": 1.0493718
+      },
+      {
+        "name": "Sandro Tonali",
+        "score": 1.0535232
+      },
+      {
+        "name": "Garang Kuol",
+        "score": 1.0568333
+      },
+      {
+        "name": "Luca Koleosho",
+        "score": 1.057792
+      },
+      {
+        "name": "Juan Larios L\u00f3pez",
+        "score": 1.0697664
+      },
+      {
+        "name": "Bruno Guimar\u00e3es Rodriguez Moura",
+        "score": 1.0706136
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Jack Jenkins",
+        "score": 0.6592043478071763
+      },
+      {
+        "name": "Liam McCarron",
+        "score": 0.6120770699082532
+      },
+      {
+        "name": "Harry Christy",
+        "score": 0.5862393543292186
+      },
+      {
+        "name": "Oliver Casey",
+        "score": 0.5720382289176413
+      },
+      {
+        "name": "Alfie McCalmont",
+        "score": 0.5707667914430261
+      },
+      {
+        "name": "Charlie Cresswell",
+        "score": 0.5621858705234798
+      },
+      {
+        "name": "Elia Caprile",
+        "score": 0.5588905171771096
+      },
+      {
+        "name": "Lewis Bate",
+        "score": 0.5567951031590642
+      },
+      {
+        "name": "Jordan Stevens",
+        "score": 0.5477080101841478
+      },
+      {
+        "name": "Jamie Shackleton",
+        "score": 0.5439059867648987
+      }
+    ]
+  },
+  {
+    "query": "Players who had more than 10 dribbles",
+    "mongo_results": [
+      {
+        "name": "Jordan Beyer",
+        "score": 0.0
+      },
+      {
+        "name": "Phil Bardsley",
+        "score": 0.0
+      },
+      {
+        "name": "Jay Rodriguez",
+        "score": 0.0
+      },
+      {
+        "name": "Kyle Walker",
+        "score": 0.0
+      },
+      {
+        "name": "Matthew Lowton",
+        "score": 0.0
+      },
+      {
+        "name": "Jaidon Anthony",
+        "score": 0.0
+      },
+      {
+        "name": "Joel Mumbongo",
+        "score": 0.0
+      },
+      {
+        "name": "Jonjo Shelvey",
+        "score": 0.0
+      },
+      {
+        "name": "Wilfred Ndidi",
+        "score": 0.0
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Jordan Beyer",
+        "score": 1.0840744
+      },
+      {
+        "name": "Phil Bardsley",
+        "score": 1.0944774
+      },
+      {
+        "name": "Jay Rodriguez",
+        "score": 1.0980792
+      },
+      {
+        "name": "Kyle Walker",
+        "score": 1.1005564
+      },
+      {
+        "name": "Matthew Lowton",
+        "score": 1.1027879
+      },
+      {
+        "name": "Jaidon Anthony",
+        "score": 1.1076236
+      },
+      {
+        "name": "Joel Mumbongo",
+        "score": 1.1161098
+      },
+      {
+        "name": "Jonjo Shelvey",
+        "score": 1.1215357
+      },
+      {
+        "name": "Wilfred Ndidi",
+        "score": 1.1255897
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 1.1302176
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Lewis Warrington",
+        "score": 0.4792254318035085
+      },
+      {
+        "name": "Harry Christy",
+        "score": 0.4023874354523751
+      },
+      {
+        "name": "James Trafford",
+        "score": 0.3771505093865888
+      },
+      {
+        "name": "Tyler Morton",
+        "score": 0.3741352283413237
+      },
+      {
+        "name": "Kayne Ramsay",
+        "score": 0.371142518884603
+      },
+      {
+        "name": "Alexander Gibson-Hammond",
+        "score": 0.3634583302414456
+      },
+      {
+        "name": "Christian Saydee",
+        "score": 0.3567928438765961
+      },
+      {
+        "name": "Owen Bevan",
+        "score": 0.3520243327009127
+      },
+      {
+        "name": "Kieran Dowell",
+        "score": 0.34886097609117206
+      },
+      {
+        "name": "Bali Mumba",
+        "score": 0.3473795641132069
+      }
+    ]
+  },
+  {
+    "query": "Players with more than 5 tackles in a season",
+    "mongo_results": [
+      {
+        "name": "Aaron Hickey",
+        "score": 0.0
+      },
+      {
+        "name": "Matthew Cox",
+        "score": 0.0
+      },
+      {
+        "name": "Nathan Collins",
+        "score": 0.0
+      },
+      {
+        "name": "Louie Marsh",
+        "score": 0.0
+      },
+      {
+        "name": "Ryan Manning",
+        "score": 0.0
+      },
+      {
+        "name": "Dylan Charlton",
+        "score": 0.0
+      },
+      {
+        "name": "Roman Dixon",
+        "score": 0.0
+      },
+      {
+        "name": "Matt Doherty",
+        "score": 0.0
+      },
+      {
+        "name": "Brayden Clarke",
+        "score": 0.0
+      },
+      {
+        "name": "Finley Stevens",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Aaron Hickey",
+        "score": 1.0440466
+      },
+      {
+        "name": "Matthew Cox",
+        "score": 1.058163
+      },
+      {
+        "name": "Nathan Collins",
+        "score": 1.0645661
+      },
+      {
+        "name": "Louie Marsh",
+        "score": 1.0704381
+      },
+      {
+        "name": "Ryan Manning",
+        "score": 1.0706134
+      },
+      {
+        "name": "Dylan Charlton",
+        "score": 1.0743462
+      },
+      {
+        "name": "Roman Dixon",
+        "score": 1.0825531
+      },
+      {
+        "name": "Matt Doherty",
+        "score": 1.0831964
+      },
+      {
+        "name": "Brayden Clarke",
+        "score": 1.0869031
+      },
+      {
+        "name": "Finley Stevens",
+        "score": 1.0883374
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Sonny Bradley",
+        "score": 0.3580518894755261
+      },
+      {
+        "name": "Joachim Andersen",
+        "score": 0.3385699732575375
+      },
+      {
+        "name": "Samy Sayed Mekawy Said Morsy",
+        "score": 0.3321357780838385
+      },
+      {
+        "name": "William Troost-Ekong",
+        "score": 0.3320649010496753
+      },
+      {
+        "name": "James Chester",
+        "score": 0.3274350824886871
+      },
+      {
+        "name": "Ryan Bennett",
+        "score": 0.30700458864822483
+      },
+      {
+        "name": "Grant Hanley",
+        "score": 0.3012949219831754
+      },
+      {
+        "name": "Harry Maguire",
+        "score": 0.2986385794849973
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "score": 0.29325310402840743
+      },
+      {
+        "name": "Mads Andersen",
+        "score": 0.2927915451179307
+      }
+    ]
+  },
+  {
+    "query": "Defenders from Netherlands",
+    "mongo_results": [
+      {
+        "name": "Aniek Nouwen",
+        "score": 0.0
+      },
+      {
+        "name": "Nicolas Ioannou",
+        "score": 0.0
+      },
+      {
+        "name": "Ismeal Kabia",
+        "score": 0.0
+      },
+      {
+        "name": "Ateef Konate",
+        "score": 0.0
+      },
+      {
+        "name": "Baba Fernandes",
+        "score": 0.0
+      },
+      {
+        "name": "Martin Sherif",
+        "score": 0.0
+      },
+      {
+        "name": "Tobias Pereira Figueiredo",
+        "score": 0.0
+      },
+      {
+        "name": "Lo\u00efc Bad\u00e9",
+        "score": 0.0
+      },
+      {
+        "name": "Lize Kop",
+        "score": 0.0
+      },
+      {
+        "name": "Micky van de Ven",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Aniek Nouwen",
+        "score": 0.98110133
+      },
+      {
+        "name": "Nicolas Ioannou",
+        "score": 0.9913081
+      },
+      {
+        "name": "Ismeal Kabia",
+        "score": 1.0101383
+      },
+      {
+        "name": "Ateef Konate",
+        "score": 1.0266103
+      },
+      {
+        "name": "Baba Fernandes",
+        "score": 1.0392182
+      },
+      {
+        "name": "Martin Sherif",
+        "score": 1.0504112
+      },
+      {
+        "name": "Tobias Pereira Figueiredo",
+        "score": 1.0512708
+      },
+      {
+        "name": "Lo\u00efc Bad\u00e9",
+        "score": 1.059508
+      },
+      {
+        "name": "Lize Kop",
+        "score": 1.0639926
+      },
+      {
+        "name": "Micky van de Ven",
+        "score": 1.0661927
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Philippe Sandler",
+        "score": 0.505447911882842
+      },
+      {
+        "name": "Mikki van Sas",
+        "score": 0.5019293804323078
+      },
+      {
+        "name": "Xavier Mbuyamba",
+        "score": 0.492481913146575
+      },
+      {
+        "name": "Juan Familia-Castillo",
+        "score": 0.47602759030540304
+      },
+      {
+        "name": "Michael Verrips",
+        "score": 0.47012914800097594
+      },
+      {
+        "name": "Martin Sherif",
+        "score": 0.4610944885835044
+      },
+      {
+        "name": "Jay-Roy Grot",
+        "score": 0.43541464165625005
+      },
+      {
+        "name": "Terence Kongolo",
+        "score": 0.43052821268559766
+      },
+      {
+        "name": "Bjorn Hardley",
+        "score": 0.4022558269255001
+      },
+      {
+        "name": "Timothy Fosu-Mensah",
+        "score": 0.3923132060499254
+      }
+    ]
+  },
+  {
+    "query": "Youngest players in the database",
+    "mongo_results": [
+      {
+        "name": "Aniek Nouwen",
+        "score": 0.0
+      },
+      {
+        "name": "Nuno Miguel da Costa J\u00f3ia",
+        "score": 0.0
+      },
+      {
+        "name": "Sofiane Boufal",
+        "score": 0.0
+      },
+      {
+        "name": "Noah Watson",
+        "score": 0.0
+      },
+      {
+        "name": "Maliq Cadogan",
+        "score": 0.0
+      },
+      {
+        "name": "Ateef Konate",
+        "score": 0.0
+      },
+      {
+        "name": "Billy Fewster",
+        "score": 0.0
+      },
+      {
+        "name": "Fousseni Diabat\u00e9",
+        "score": 0.0
+      },
+      {
+        "name": "Matthew Vigor",
+        "score": 0.0
+      },
+      {
+        "name": "Joel Ndala",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Aniek Nouwen",
+        "score": 1.1481578
+      },
+      {
+        "name": "Nuno Miguel da Costa J\u00f3ia",
+        "score": 1.1546127
+      },
+      {
+        "name": "Sofiane Boufal",
+        "score": 1.1591995
+      },
+      {
+        "name": "Noah Watson",
+        "score": 1.1593311
+      },
+      {
+        "name": "Maliq Cadogan",
+        "score": 1.1692078
+      },
+      {
+        "name": "Ateef Konate",
+        "score": 1.1717262
+      },
+      {
+        "name": "Billy Fewster",
+        "score": 1.1775863
+      },
+      {
+        "name": "Fousseni Diabat\u00e9",
+        "score": 1.1777889
+      },
+      {
+        "name": "Matthew Vigor",
+        "score": 1.1807485
+      },
+      {
+        "name": "Joel Ndala",
+        "score": 1.181036
+      }
+    ],
+    "graphdb_results": []
+  },
+  {
+    "query": "Oldest players in the league",
+    "mongo_results": [
+      {
+        "name": "Nikola Karczewska",
+        "score": 0.0
+      },
+      {
+        "name": "Philip Zinckernagel",
+        "score": 0.0
+      },
+      {
+        "name": "Gedson Carvalho Fernandes",
+        "score": 0.0
+      },
+      {
+        "name": "Paul Appiah",
+        "score": 0.0
+      },
+      {
+        "name": "Aaron Lennon",
+        "score": 0.0
+      },
+      {
+        "name": "Henry Cartwright",
+        "score": 0.0
+      },
+      {
+        "name": "Maeson King",
+        "score": 0.0
+      },
+      {
+        "name": "Robert Elliot",
+        "score": 0.0
+      },
+      {
+        "name": "Malachi Hardy",
+        "score": 0.0
+      },
+      {
+        "name": "Marcel Lavinier",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Nikola Karczewska",
+        "score": 1.113972
+      },
+      {
+        "name": "Philip Zinckernagel",
+        "score": 1.1403031
+      },
+      {
+        "name": "Gedson Carvalho Fernandes",
+        "score": 1.1418328
+      },
+      {
+        "name": "Paul Appiah",
+        "score": 1.1480036
+      },
+      {
+        "name": "Aaron Lennon",
+        "score": 1.1563416
+      },
+      {
+        "name": "Henry Cartwright",
+        "score": 1.1596327
+      },
+      {
+        "name": "Maeson King",
+        "score": 1.1648464
+      },
+      {
+        "name": "Robert Elliot",
+        "score": 1.1683316
+      },
+      {
+        "name": "Malachi Hardy",
+        "score": 1.1738675
+      },
+      {
+        "name": "Marcel Lavinier",
+        "score": 1.1743945
+      }
+    ],
+    "graphdb_results": []
+  },
+  {
+    "query": "Spanish midfielders with fewer than 3 assists",
+    "mongo_results": [
+      {
+        "name": "Jorge Cuenca",
+        "score": 0.0
+      },
+      {
+        "name": "Pau Torres",
+        "score": 0.0
+      },
+      {
+        "name": "Jos\u00e9 Ignacio Peleteiro Ramallo",
+        "score": 0.0
+      },
+      {
+        "name": "Rodrigo Muniz Carvalho",
+        "score": 0.0
+      },
+      {
+        "name": "Yago de Santiago Alonso",
+        "score": 0.0
+      },
+      {
+        "name": "Fabricio Agosto Ram\u00edrez",
+        "score": 0.0
+      },
+      {
+        "name": "Andr\u00e9s Garc\u00eda",
+        "score": 0.0
+      },
+      {
+        "name": "Rodrigo Hern\u00e1ndez Cascante",
+        "score": 0.0
+      },
+      {
+        "name": "Pedro Rodr\u00edguez Ledesma",
+        "score": 0.0
+      },
+      {
+        "name": "Mikel Merino",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Jorge Cuenca",
+        "score": 0.7884789
+      },
+      {
+        "name": "Pau Torres",
+        "score": 0.88002545
+      },
+      {
+        "name": "Jos\u00e9 Ignacio Peleteiro Ramallo",
+        "score": 0.8816488
+      },
+      {
+        "name": "Rodrigo Muniz Carvalho",
+        "score": 0.8823149
+      },
+      {
+        "name": "Yago de Santiago Alonso",
+        "score": 0.88341683
+      },
+      {
+        "name": "Fabricio Agosto Ram\u00edrez",
+        "score": 0.88403153
+      },
+      {
+        "name": "Andr\u00e9s Garc\u00eda",
+        "score": 0.88521606
+      },
+      {
+        "name": "Rodrigo Hern\u00e1ndez Cascante",
+        "score": 0.8901327
+      },
+      {
+        "name": "Pedro Rodr\u00edguez Ledesma",
+        "score": 0.9066074
+      },
+      {
+        "name": "Mikel Merino",
+        "score": 0.91309434
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Matt Smith",
+        "score": 0.667824814894559
+      },
+      {
+        "name": "Charlie Patino",
+        "score": 0.5803040990194269
+      },
+      {
+        "name": "James Hillson",
+        "score": 0.5758706011462161
+      },
+      {
+        "name": "Bradley Ibrahim",
+        "score": 0.5681630938067527
+      },
+      {
+        "name": "Josh Robinson",
+        "score": 0.566494993570747
+      },
+      {
+        "name": "Miguel Azeez",
+        "score": 0.5617473625593998
+      },
+      {
+        "name": "Alex Kirk",
+        "score": 0.551454108556042
+      },
+      {
+        "name": "Mauro Bandeira",
+        "score": 0.5493830159924016
+      },
+      {
+        "name": "Charles Sagoe Junior",
+        "score": 0.5437909697365204
+      },
+      {
+        "name": "Tom Smith",
+        "score": 0.5427746781886273
+      }
+    ]
+  },
+  {
+    "query": "Players from Brazil aged under 25",
+    "mongo_results": [
+      {
+        "name": "Carlos Miguel dos Santos Pereira",
+        "score": 0.0
+      },
+      {
+        "name": "Samir Caetano de Souza Santos",
+        "score": 0.0
+      },
+      {
+        "name": "S\u00e1vio Moreira de Oliveira",
+        "score": 0.0
+      },
+      {
+        "name": "Vitor de Oliveira Nunes dos Reis",
+        "score": 0.0
+      },
+      {
+        "name": "Richarlison de Andrade",
+        "score": 0.0
+      },
+      {
+        "name": "Matheus Fran\u00e7a de Oliveira",
+        "score": 0.0
+      },
+      {
+        "name": "Danilo dos Santos de Oliveira",
+        "score": 0.0
+      },
+      {
+        "name": "Roberto Firmino Barbosa de Oliveira",
+        "score": 0.0
+      },
+      {
+        "name": "Felipe Augusto de Almeida Monteiro",
+        "score": 0.0
+      },
+      {
+        "name": "Vinicius de Souza Costa",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Carlos Miguel dos Santos Pereira",
+        "score": 0.78112376
+      },
+      {
+        "name": "Samir Caetano de Souza Santos",
+        "score": 0.7977984
+      },
+      {
+        "name": "S\u00e1vio Moreira de Oliveira",
+        "score": 0.7985182
+      },
+      {
+        "name": "Vitor de Oliveira Nunes dos Reis",
+        "score": 0.80705506
+      },
+      {
+        "name": "Richarlison de Andrade",
+        "score": 0.81980217
+      },
+      {
+        "name": "Matheus Fran\u00e7a de Oliveira",
+        "score": 0.82631576
+      },
+      {
+        "name": "Danilo dos Santos de Oliveira",
+        "score": 0.82886225
+      },
+      {
+        "name": "Roberto Firmino Barbosa de Oliveira",
+        "score": 0.8297007
+      },
+      {
+        "name": "Felipe Augusto de Almeida Monteiro",
+        "score": 0.83639514
+      },
+      {
+        "name": "Vinicius de Souza Costa",
+        "score": 0.83667326
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Dion Pereira",
+        "score": 0.8179651521006035
+      },
+      {
+        "name": "Jay Turner-Cooke",
+        "score": 0.2823622958940059
+      },
+      {
+        "name": "Kayky da Silva Chagas",
+        "score": 0.2673019857426252
+      },
+      {
+        "name": "Maxime Est\u00e8ve",
+        "score": 0.2582794968674039
+      },
+      {
+        "name": "Felipe Augusto de Almeida Monteiro",
+        "score": 0.2552331992139555
+      },
+      {
+        "name": "Felipe Rodrigues da Silva",
+        "score": 0.25298512990246375
+      },
+      {
+        "name": "Asmita Ale",
+        "score": 0.2506270850603061
+      },
+      {
+        "name": "Gustavo Henrique Furtado Scarpa",
+        "score": 0.2489914512245874
+      },
+      {
+        "name": "Carlos Miguel dos Santos Pereira",
+        "score": 0.2472123314449647
+      },
+      {
+        "name": "Dale Taylor",
+        "score": 0.24387954741319406
+      }
+    ]
+  },
+  {
+    "query": "Goalkeepers with more than 5 clean sheets",
+    "mongo_results": [
+      {
+        "name": "Norberto Murara Neto",
+        "score": 0.0
+      },
+      {
+        "name": "Serge Aurier",
+        "score": 0.0
+      },
+      {
+        "name": "Mark Flekken",
+        "score": 0.0
+      },
+      {
+        "name": "Dango Ouattara",
+        "score": 0.0
+      },
+      {
+        "name": "Emmanuel Dennis",
+        "score": 0.0
+      },
+      {
+        "name": "Ibrahim Sangar\u00e9",
+        "score": 0.0
+      },
+      {
+        "name": "\u00c9douard Mendy",
+        "score": 0.0
+      },
+      {
+        "name": "Cameron Plain",
+        "score": 0.0
+      },
+      {
+        "name": "Hamed Traor\u00e8",
+        "score": 0.0
+      },
+      {
+        "name": "Matz Sels",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Norberto Murara Neto",
+        "score": 1.1367885
+      },
+      {
+        "name": "Serge Aurier",
+        "score": 1.1373088
+      },
+      {
+        "name": "Mark Flekken",
+        "score": 1.1536822
+      },
+      {
+        "name": "Dango Ouattara",
+        "score": 1.1550691
+      },
+      {
+        "name": "Emmanuel Dennis",
+        "score": 1.1553619
+      },
+      {
+        "name": "Ibrahim Sangar\u00e9",
+        "score": 1.1626046
+      },
+      {
+        "name": "\u00c9douard Mendy",
+        "score": 1.1637592
+      },
+      {
+        "name": "Cameron Plain",
+        "score": 1.1638633
+      },
+      {
+        "name": "Hamed Traor\u00e8",
+        "score": 1.1642337
+      },
+      {
+        "name": "Matz Sels",
+        "score": 1.1658702
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "James Chester",
+        "score": 0.42952722343334937
+      },
+      {
+        "name": "Sonny Bradley",
+        "score": 0.3816234957742484
+      },
+      {
+        "name": "James Shea",
+        "score": 0.3244073583899768
+      },
+      {
+        "name": "Grant Hanley",
+        "score": 0.31763564339011735
+      },
+      {
+        "name": "Samy Sayed Mekawy Said Morsy",
+        "score": 0.3062853559491946
+      },
+      {
+        "name": "Ryan Bennett",
+        "score": 0.306001691612072
+      },
+      {
+        "name": "Pierre-Emile H\u00f8jbjerg",
+        "score": 0.3055679081583683
+      },
+      {
+        "name": "Jack O'Connell",
+        "score": 0.3003863848110823
+      },
+      {
+        "name": "Emiliano Mart\u00ednez",
+        "score": 0.29506555818640834
+      },
+      {
+        "name": "Harry Isted",
+        "score": 0.29429226741346964
+      }
+    ]
+  },
+  {
+    "query": "Players with more than 200 completed passes",
+    "mongo_results": [
+      {
+        "name": "Manuel Akanji",
+        "score": 0.0
+      },
+      {
+        "name": "Rasmus Kristensen",
+        "score": 0.0
+      },
+      {
+        "name": "Lorenz Assignon",
+        "score": 0.0
+      },
+      {
+        "name": "Luke Thomas",
+        "score": 0.0
+      },
+      {
+        "name": "Ryan Manning",
+        "score": 0.0
+      },
+      {
+        "name": "Max Aarons",
+        "score": 0.0
+      },
+      {
+        "name": "Jacob Bruun Larsen",
+        "score": 0.0
+      },
+      {
+        "name": "Mads Hermansen",
+        "score": 0.0
+      },
+      {
+        "name": "Pascal Struijk",
+        "score": 0.0
+      },
+      {
+        "name": "Patrick Roberts",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Manuel Akanji",
+        "score": 1.1464919
+      },
+      {
+        "name": "Rasmus Kristensen",
+        "score": 1.1573906
+      },
+      {
+        "name": "Lorenz Assignon",
+        "score": 1.1580206
+      },
+      {
+        "name": "Luke Thomas",
+        "score": 1.1598612
+      },
+      {
+        "name": "Ryan Manning",
+        "score": 1.1620877
+      },
+      {
+        "name": "Max Aarons",
+        "score": 1.1638446
+      },
+      {
+        "name": "Jacob Bruun Larsen",
+        "score": 1.1648288
+      },
+      {
+        "name": "Mads Hermansen",
+        "score": 1.1668301
+      },
+      {
+        "name": "Pascal Struijk",
+        "score": 1.1668324
+      },
+      {
+        "name": "Patrick Roberts",
+        "score": 1.1680894
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Mike Penders",
+        "score": 0.5866050733541592
+      },
+      {
+        "name": "Chituru Odunze",
+        "score": 0.5048635060266976
+      },
+      {
+        "name": "Harry Souttar",
+        "score": 0.45007987658743326
+      },
+      {
+        "name": "Sasa Kalajdzic",
+        "score": 0.4163827952724928
+      },
+      {
+        "name": "Alex Paulsen",
+        "score": 0.17929431736032395
+      },
+      {
+        "name": "Boubacar Kamara",
+        "score": 0.17687381732011834
+      },
+      {
+        "name": "Shumaira Mheuka",
+        "score": 0.17635803257877627
+      },
+      {
+        "name": "Luca Stephenson",
+        "score": 0.17409697810398983
+      },
+      {
+        "name": "Fionn Mooney",
+        "score": 0.17361611233100066
+      },
+      {
+        "name": "Juan Familia-Castillo",
+        "score": 0.16430781187152646
+      }
+    ]
+  },
+  {
+    "query": "Players who committed more than 5 fouls",
+    "mongo_results": [
+      {
+        "name": "Jordan Beyer",
+        "score": 0.0
+      },
+      {
+        "name": "Lyle Foster",
+        "score": 0.0
+      },
+      {
+        "name": "Phil Bardsley",
+        "score": 0.0
+      },
+      {
+        "name": "Jaidon Anthony",
+        "score": 0.0
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 0.0
+      },
+      {
+        "name": "Luke McNally",
+        "score": 0.0
+      },
+      {
+        "name": "Bobby De Cordova-Reid",
+        "score": 0.0
+      },
+      {
+        "name": "Wilson Odobert",
+        "score": 0.0
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "score": 0.0
+      },
+      {
+        "name": "Joe Worrall",
+        "score": 0.0
+      }
+    ],
+    "chroma_results": [
+      {
+        "name": "Jordan Beyer",
+        "score": 1.2064017
+      },
+      {
+        "name": "Lyle Foster",
+        "score": 1.2234042
+      },
+      {
+        "name": "Phil Bardsley",
+        "score": 1.2269335
+      },
+      {
+        "name": "Jaidon Anthony",
+        "score": 1.2306733
+      },
+      {
+        "name": "Manor Solomon",
+        "score": 1.2394289
+      },
+      {
+        "name": "Luke McNally",
+        "score": 1.2406671
+      },
+      {
+        "name": "Bobby De Cordova-Reid",
+        "score": 1.2560441
+      },
+      {
+        "name": "Wilson Odobert",
+        "score": 1.2577586
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "score": 1.2606704
+      },
+      {
+        "name": "Joe Worrall",
+        "score": 1.2640662
+      }
+    ],
+    "graphdb_results": [
+      {
+        "name": "Sonny Bradley",
+        "score": 0.3580518894755261
+      },
+      {
+        "name": "Joachim Andersen",
+        "score": 0.3385699732575375
+      },
+      {
+        "name": "Samy Sayed Mekawy Said Morsy",
+        "score": 0.3321357780838385
+      },
+      {
+        "name": "William Troost-Ekong",
+        "score": 0.3320649010496753
+      },
+      {
+        "name": "James Chester",
+        "score": 0.3274350824886871
+      },
+      {
+        "name": "Ryan Bennett",
+        "score": 0.30700458864822483
+      },
+      {
+        "name": "Grant Hanley",
+        "score": 0.3012949219831754
+      },
+      {
+        "name": "Harry Maguire",
+        "score": 0.2986385794849973
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "score": 0.29325310402840743
+      },
+      {
+        "name": "Mads Andersen",
+        "score": 0.2927915451179307
+      }
+    ]
+  }
+]

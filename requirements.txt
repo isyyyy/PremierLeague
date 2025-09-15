@@ -1,2 +1,4 @@
 requests~=2.32.4
 rdflib==6.3.2
+opensearch-py
+pymongo

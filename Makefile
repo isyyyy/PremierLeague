@@ -32,6 +32,12 @@ END_SEASON      ?= 2024
 # Competition identifier for Premier League
 COMPETITION_ID  ?= 8
 
+
+CHROMA_PORT=8000
+ADMIN_PORT=3001
+CHROMA_DATA=./chroma_data
+
+
 .PHONY: setup crawl-players build-players build-clubs build-player-stats build-seasons build-positions build-nationalities crawl-all
 
 # Ensure the raw data directory exists
@@ -150,3 +156,43 @@ run-sparql-batch:
 	$(PYTHON) sparql_docs/run_sparql_batch.py \
 		--file sparql_docs/SPARQL_Query_Examples.rq \
 		--endpoint http://localhost:7200/repositories/premier-league
+
+
+generate-player-profiles:
+	$(PYTHON) profile_scripts/generate_player_profiles.py \
+    --input raw_data/players.json \
+    --clubs raw_data/clubs.json \
+    --output profile_data/player_profiles.json
+
+generate-club-profiles:
+	$(PYTHON) profile_scripts/generate_club_profiles.py \
+    --input raw_data/clubs.json \
+    --output profile_data/club_profiles.json
+
+
+generate-player-season-profiles:
+	$(PYTHON) profile_scripts/generate_player_season_profiles.py \
+  --input raw_data/player_season_stats.json \
+  --players raw_data/players.json \
+  --clubs raw_data/clubs.json \
+  --seasons raw_data/seasons.json \
+  --output profile_data/player_season_profiles.json
+
+es-run:
+	docker run -d --name elasticsearch \
+		-p 9200:9200 \
+		-e "discovery.type=single-node" \
+		docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+
+
+chroma-run:
+	@echo "Starting ChromaDB server..."
+	@docker run -d --name chroma-server \
+		-p $(CHROMA_PORT):8000 \
+		-v $(CHROMA_DATA):/chroma \
+		chromadb/chroma
+
+	@echo "Starting ChromaDB Admin UI..."
+	@docker run -d --name chroma-admin-ui \
+		-p $(ADMIN_PORT):3001 \
+		fengzhichao/chromadb-admin

@@ -4,3 +4,6 @@
 /graphdb-data
 
 .idea
+.env
+/co-working
+
