@@ -19,7 +19,7 @@
 #####################################################################
 
 PYTHON          ?= python3
-SCRIPTS_DIR     ?= scripts
+SCRIPTS_DIR     ?= crawl
 RAW_DATA_DIR    ?= raw_data
 
 RDF_SCRIPTS_DIR   ?= rdf_scripts
@@ -45,7 +45,8 @@ setup:
 	mkdir -p $(RAW_DATA_DIR)
 	mkdir -p $(RDF_OUTPUT_DIR)
 
-# Step 1: Crawl players for the specified season range
+# ====== STEP 1: DATA CRAWLING ======
+# Crawl players for the specified season range
 crawl-players: setup
 	$(PYTHON) $(SCRIPTS_DIR)/crawl_players.py \
 		--competition-id $(COMPETITION_ID) \
@@ -53,39 +54,39 @@ crawl-players: setup
 		--end-season $(END_SEASON) \
 		--output $(RAW_DATA_DIR)/players_by_season.json
 
-# Step 2: Build aggregated player records and relationships
+# Build aggregated player records and relationships
 build-players: setup
 	$(PYTHON) $(SCRIPTS_DIR)/build_players.py \
 		--input $(RAW_DATA_DIR)/players_by_season.json \
 		--output $(RAW_DATA_DIR)/players.json \
 		--competition-id $(COMPETITION_ID)
 
-# Step 3: Build club records
+# Build club records
 build-clubs: setup
 	$(PYTHON) $(SCRIPTS_DIR)/build_clubs.py \
 		--input $(RAW_DATA_DIR)/players_by_season.json \
 		--output $(RAW_DATA_DIR)/clubs.json
 
-# Step 4a: Build player season statistics
+# Build player season statistics
 build-player-stats: setup
 	$(PYTHON) $(SCRIPTS_DIR)/build_player_stats.py \
 		--input $(RAW_DATA_DIR)/players_by_season.json \
 		--output $(RAW_DATA_DIR)/player_season_stats.json \
 		--competition $(COMPETITION_ID)
 
-# Step 5: Build season records from player statistics
+# Build season records from player statistics
 build-seasons: setup
 	$(PYTHON) $(SCRIPTS_DIR)/build_seasons.py \
 		--input $(RAW_DATA_DIR)/player_season_stats.json \
 		--output $(RAW_DATA_DIR)/seasons.json
 
-# Step 6: Build positions from aggregated players
+# Build positions from aggregated players
 build-positions: setup
 	$(PYTHON) $(SCRIPTS_DIR)/build_positions.py \
 		--input $(RAW_DATA_DIR)/players.json \
 		--output $(RAW_DATA_DIR)/positions.json
 
-# Step 7: Build nationalities from aggregated players
+# Build nationalities from aggregated players
 build-nationalities: setup
 	$(PYTHON) $(SCRIPTS_DIR)/build_nationalities.py \
 		--input $(RAW_DATA_DIR)/players.json \
@@ -97,46 +98,21 @@ aggregate-totals-to-players:setup
 		--players $(RAW_DATA_DIR)/players.json \
 		--output $(RAW_DATA_DIR)/players.json
 
-# Step 8: Run the entire pipeline
+# Run the entire crawl pipeline
 crawl-all: crawl-players build-players build-clubs build-player-stats build-seasons build-positions build-nationalities argregate-totals-to-players
-	@echo "Data pipeline completed. Files are stored in $(RAW_DATA_DIR)."
+	@echo "Crawl completed. Files are stored in $(RAW_DATA_DIR)."
+
+# ====== STEP 2: GENERATE PROFILES ======
+generate-profiles:
+	$(PYTHON) profile_scripts/data.py
 
 
-# Convert raw data to RDF format
-rdf-players: setup
-	$(PYTHON) $(RDF_SCRIPTS_DIR)/player_to_rdf.py \
-		--input $(RAW_DATA_DIR)/players.json \
-		--output $(RDF_OUTPUT_DIR)/players.ttl
-
-rdf-clubs: setup
-	$(PYTHON) $(RDF_SCRIPTS_DIR)/club_to_rdf.py \
-		--input $(RAW_DATA_DIR)/clubs.json \
-		--output $(RDF_OUTPUT_DIR)/clubs.ttl
-
-rdf-season:
-	$(PYTHON) $(RDF_SCRIPTS_DIR)/season_to_rdf.py \
-		--input $(RAW_DATA_DIR)/seasons.json \
-		--output $(RDF_OUTPUT_DIR)/seasons.ttl
-
-rdf-player-stats:
-	$(PYTHON) $(RDF_SCRIPTS_DIR)/player_stats_to_rdf.py \
-		--input $(RAW_DATA_DIR)/player_season_stats.json \
-		--output $(RDF_OUTPUT_DIR)/player_stats.ttl
-
-rdf-position:
-	$(PYTHON) $(RDF_SCRIPTS_DIR)/position_to_rdf.py \
-		--input $(RAW_DATA_DIR)/positions.json \
-		--output $(RDF_OUTPUT_DIR)/positions.ttl
-
-rdf-nationalities:
-	$(PYTHON) $(RDF_SCRIPTS_DIR)/nationality_to_rdf.py \
-	--input $(RAW_DATA_DIR)/nationalities.json \
-	--output $(RDF_OUTPUT_DIR)/nationalities.ttl
-
-rdf-all: rdf-players rdf-clubs rdf-season rdf-player-stats rdf-position rdf-nationalities
-	@echo "RDF conversion completed. Files are stored in $(RDF_OUTPUT_DIR)."
+# ====== STEP 3: RDF CONVERSION ======
+rdf-profiles: setup
+	$(PYTHON) $(RDF_SCRIPTS_DIR)/player_profile_to_rdf.py
 
 
+# ========= DATABASE SETUP SECTION ==========
 graphdb-run:
 	docker run -d --name graphdb \
 	  -p 7200:7200 \
@@ -157,34 +133,6 @@ run-sparql-batch:
 		--file sparql_docs/SPARQL_Query_Examples.rq \
 		--endpoint http://localhost:7200/repositories/premier-league
 
-
-generate-player-profiles:
-	$(PYTHON) profile_scripts/generate_player_profiles.py \
-    --input raw_data/players.json \
-    --clubs raw_data/clubs.json \
-    --output profile_data/player_profiles.json
-
-generate-club-profiles:
-	$(PYTHON) profile_scripts/generate_club_profiles.py \
-    --input raw_data/clubs.json \
-    --output profile_data/club_profiles.json
-
-
-generate-player-season-profiles:
-	$(PYTHON) profile_scripts/generate_player_season_profiles.py \
-  --input raw_data/player_season_stats.json \
-  --players raw_data/players.json \
-  --clubs raw_data/clubs.json \
-  --seasons raw_data/seasons.json \
-  --output profile_data/player_season_profiles.json
-
-es-run:
-	docker run -d --name elasticsearch \
-		-p 9200:9200 \
-		-e "discovery.type=single-node" \
-		docker.elastic.co/elasticsearch/elasticsearch:8.13.4
-
-
 chroma-run:
 	@echo "Starting ChromaDB server..."
 	@docker run -d --name chroma-server \
@@ -196,3 +144,7 @@ chroma-run:
 	@docker run -d --name chroma-admin-ui \
 		-p $(ADMIN_PORT):3001 \
 		fengzhichao/chromadb-admin
+
+
+postgres-up:
+	docker compose -f compose/postgres-compose.yml up -d

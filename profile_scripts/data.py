@@ -80,5 +80,5 @@ generate_detailed_player_profiles(
     players_path="raw_data/players.json",
     stats_path="raw_data/player_season_stats.json",
     clubs_path="raw_data/clubs.json",
-    output_path="profile_data/players_2024.json"
+    output_path="profile_data/player_profiles_detailed.json"
 )
